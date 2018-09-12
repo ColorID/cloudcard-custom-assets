@@ -2,7 +2,7 @@
 Color 1: 00203e 
 Color_1_Shade: #001931; (goto http://www.color-hex.com/color/115740 ; use the second Shade -- just needs to be a little bit darker.)
 Color 2: e4e1dc
-Color_2_Tint: #cdcac6; (goto http://www.color-hex.com/color/e4e1dc ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+Color_2_Tint: #C8102E; (goto http://www.color-hex.com/color/e4e1dc ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 Logo URL: https://www.gonzaga.edu/ui/images/logo-public.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -35,7 +35,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#e4e1dc;
-  color: #cdcac6;
+  color: #C8102E;
 }
 
 .header-page .tabs li a:hover,
@@ -62,7 +62,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #cdcac6;
+  background-color: #C8102E;
   color: #115740;
 
   /* Alternative if the above doesn't look so great.
@@ -88,7 +88,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #cdcac6;
+    background-color: #C8102E;
 }
 
 router-view .buttons button.primary,
@@ -113,7 +113,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #cdcac6;
+    color: #C8102E;
 }
 
 .user-info a:hover,
@@ -132,12 +132,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #cdcac6; /*default #007bff*/
+    color: #C8102E; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #cdcac6;
+    background: #C8102E;
 }
 
 .footer {
