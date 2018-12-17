@@ -19,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #00203e ;
+  background-color: #f4f4f4 ;
   height:10.5em;
 }
 
@@ -109,16 +109,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #01426a;
 }
 
 .user-info a {
-    color: #cdcac6;
+    color: #01426a;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff;
+    color: #01426a;
 }
 
 .open-nav {
@@ -128,7 +128,7 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff;
+    color: #01426a;
 }
 
 .admin-links .fa {
