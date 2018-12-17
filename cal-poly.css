@@ -3,15 +3,15 @@
 {{003b5f}}: #{{003b5f}}; (goto http://www.color-hex.com/color/{{01426a}} ; use the second Shade -- just needs to be a little bit darker.)
 {{ffda7f}}: (don't include the '#')
 {{FFB500}}: #{{FFB500}}; (goto http://www.color-hex.com/color/{{ffda7f}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking FFB500 on a background of both 01426a and ffda7f; select the suggested text color that works for both backgrounds)
-{{https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg}}: {{https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true}}: {{www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #01426a;
+  background: #f4f4f4
 }
 
 .splash {
-  background-color: #01426a;
+  background-color: #f4f4f4
 }
 
 .splash .loading path {
@@ -19,12 +19,12 @@ html {
 }
 
 header.header-main {
-  background-color: #01426a;
+  background-color: #f4f4f4
   height:10.5em;
 }
 
 .logo {
-  background: url('//https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg') top center no-repeat;
+  background: url('//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -47,11 +47,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #01426a;
+    border-bottom-color: #f4f4f4
 }
 
 .header-page .buttons button {
-  background-color: #01426a;
+  background-color: #f4f4f4
   color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #01426a;
+    background-color: #f4f4f4
 }
 
 router-view .buttons button.primary:hover,
@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #01426a;	
+    background: #f4f4f4	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
