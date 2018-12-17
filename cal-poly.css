@@ -1,5 +1,5 @@
 /*
-Color 1: 00203e 
+Color 1: #00843D 
 Color_1_Shade: #001931; (goto http://www.color-hex.com/color/115740 ; use the second Shade -- just needs to be a little bit darker.)
 Color 2: #01426a
 Color_2_Tint: #cdcac6; (goto http://www.color-hex.com/color/01426a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
@@ -46,11 +46,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #00203e ;
+    border-bottom-color: #00843D ;
 }
 
 .header-page .buttons button {
-  background-color: #00203e;
+  background-color: #00843D;
   color: #fff;
 }
 
@@ -73,7 +73,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #00203e;
+    background-color: #00843D;
     color: #fff;
 }
 
@@ -95,7 +95,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #00203e;
+    background-color: #00843D;
 }
 
 router-view .buttons button.primary:hover,
