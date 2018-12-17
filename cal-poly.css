@@ -1,17 +1,17 @@
 /*
-{{01426a}}: (don't include the '#')
-{{003b5f}}: #{{003b5f}}; (goto http://www.color-hex.com/color/{{01426a}} ; use the second Shade -- just needs to be a little bit darker.)
-{{ffda7f}}: (don't include the '#')
-{{FFB500}}: #{{FFB500}}; (goto http://www.color-hex.com/color/{{ffda7f}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking FFB500 on a background of both 01426a and ffda7f; select the suggested text color that works for both backgrounds)
-{{www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true}}: {{www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+Color 1: 00203e 
+Color_1_Shade: #001931; (goto http://www.color-hex.com/color/115740 ; use the second Shade -- just needs to be a little bit darker.)
+Color 2: 01426a
+Color_2_Tint: #cdcac6; (goto http://www.color-hex.com/color/01426a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+Logo URL: www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #f4f4f4;
+  background: #f4f4f4 ;
 }
 
 .splash {
-  background-color: #f4f4f4;
+  background-color: #f4f4f4 ;
 }
 
 .splash .loading path {
@@ -19,24 +19,23 @@ html {
 }
 
 header.header-main {
-  background-color: #f4f4f4;
+  background-color: #00203e ;
   height:10.5em;
 }
 
 .logo {
   background: url('//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true') top center no-repeat;
-  display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#ffda7f;
+  background-color:#01426a;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#ffda7f;
-  color: #FFB500;
+  border-bottom-color:#01426a;
+  color: #cdcac6;
 }
 
 .header-page .tabs li a:hover,
@@ -47,34 +46,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #f4f4f4;
+    border-bottom-color: #00203e ;
 }
 
 .header-page .buttons button {
-  background-color: #f4f4f4;
+  background-color: #00203e;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #ffda7f;
+  background-color: #01426a;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #FFB500;
-  color: #{{01426a}};
+  background-color: #cdcac6;
+  color: #115740;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #{{ffda7f}};
+  background-color: #01426a;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{01426a}};
+    background-color: #00203e;
     color: #fff;
 }
 
@@ -84,19 +83,19 @@ header.header-page {
 }
 
 button {
-    background-color: #ffda7f;
+    background-color: #01426a;
 }
 
 button:hover,
 button:focus {
-    background-color: #FFB500;
+    background-color: #cdcac6;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #f4f4f4
+    background-color: #00203e;
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +105,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #003b5f;
+    background-color: #001931;
 }
 
 .user-info {
@@ -114,7 +113,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #FFB500;
+    color: #cdcac6;
 }
 
 .user-info a:hover,
@@ -133,16 +132,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #FFB500; /*default #007bff*/
+    color: #cdcac6; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #FFB500;
+    background: #cdcac6;
 }
 
 .footer {
-    background: #01426a;	
+    background: #01426a;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
