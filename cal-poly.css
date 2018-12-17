@@ -7,11 +7,11 @@
 */
 
 html {
-  background: #{{01426a}};
+  background: #01426a;
 }
 
 .splash {
-  background-color: #{{01426a}};
+  background-color: #01426a;
 }
 
 .splash .loading path {
@@ -19,24 +19,24 @@ html {
 }
 
 header.header-main {
-  background-color: #{{01426a}};
+  background-color: #01426a;
   height:10.5em;
 }
 
 .logo {
-  background: url('//{{https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg}}') top center no-repeat;
+  background: url('//https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#{{ffda7f}};
+  background-color:#ffda7f;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#{{ffda7f}};
-  color: #{{FFB500}};
+  border-bottom-color:#ffda7f;
+  color: #FFB500;
 }
 
 .header-page .tabs li a:hover,
@@ -47,23 +47,23 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #{{01426a}};
+    border-bottom-color: #01426a;
 }
 
 .header-page .buttons button {
-  background-color: #{{01426a}};
+  background-color: #01426a;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #{{ffda7f}};
+  background-color: #ffda7f;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #{{FFB500}};
+  background-color: #FFB500;
   color: #{{01426a}};
 
   /* Alternative if the above doesn't look so great.
@@ -84,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #{{ffda7f}};
+    background-color: #ffda7f;
 }
 
 button:hover,
 button:focus {
-    background-color: #{{FFB500}};
+    background-color: #FFB500;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{01426a}};
+    background-color: #01426a;
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{003b5f}};
+    background-color: #003b5f;
 }
 
 .user-info {
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #{{FFB500}};
+    color: #FFB500;
 }
 
 .user-info a:hover,
@@ -133,16 +133,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #{{FFB500}}; /*default #007bff*/
+    color: #FFB500; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #{{FFB500}};
+    background: #FFB500;
 }
 
 .footer {
-    background: #{{01426a}};	
+    background: #01426a;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
