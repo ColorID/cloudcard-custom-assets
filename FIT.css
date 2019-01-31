@@ -138,6 +138,17 @@ button.submit-login:focus
     color: #cccccc; /*default #007bff*/
 }
 
+.admin-links a {
+    background: #fff;
+    color: #353535;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #e7efd4;
+}
+
 table th,
 table td {
     background: #cccccc;
