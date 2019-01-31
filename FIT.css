@@ -135,18 +135,18 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #cccccc; /*default #007bff*/
+    color: #84754e; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #fff;
+    background: #cccccc;
     color: #353535;
 	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #e7efd4;
+    background: #e8e8e8;
 }
 
 table th,
@@ -161,13 +161,13 @@ table td {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #ffffff;
+    background: #cccccc;
     color: #1a4980;
     border-right: 3px solid #8aaf2a;
     height: 100% !important;
 
     &.nav-open {
-	background: #ffffff;
+	background: #cccccc;
     }
 	
 }
