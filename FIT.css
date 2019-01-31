@@ -1,9 +1,11 @@
 /*
 990000: (don't include the '#')
 {{Color_1_Shade}}: 890000; (goto http://www.color-hex.com/color/990000 ; use the second Shade -- just needs to be a little bit darker.)
-eecc33: (don't include the '#')
-{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/eecc33 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+84754e: (don't include the '#')
+{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/84754e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true: //www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+
+https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
 html {
@@ -31,11 +33,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#eecc33;
+  background-color:#84754e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#eecc33;
+  border-bottom-color:#84754e;
   color: #cccccc;
 }
 
@@ -56,7 +58,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #eecc33;
+  background-color: #84754e;
   color: #fff;
 }
 
@@ -67,7 +69,7 @@ header.header-page {
   color: #990000;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #eecc33;
+  background-color: #84754e;
   color: #fff;
    */
 }
@@ -84,7 +86,7 @@ header.header-page {
 }
 
 button {
-    background-color: #eecc33;
+    background-color: #84754e;
 }
 
 button:hover,
