@@ -1,17 +1,17 @@
 /*
-c8c8c8: (don't include the '#')
-b4b4b4: #b4b4b4; (goto http://www.color-hex.com/color/c8c8c8 ; use the second Shade -- just needs to be a little bit darker.)
 990000: (don't include the '#')
-890000: #890000; (goto http://www.color-hex.com/color/990000 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Color_1_Shade}}: 890000; (goto http://www.color-hex.com/color/990000 ; use the second Shade -- just needs to be a little bit darker.)
+eecc33: (don't include the '#')
+{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/eecc33 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true: //www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #c8c8c8;
+  background: #990000;
 }
 
 .splash {
-  background-color: #c8c8c8;
+  background-color: #990000;
 }
 
 .splash .loading path {
@@ -19,24 +19,24 @@ html {
 }
 
 header.header-main {
-  background-color: #c8c8c8;
+  background-color: #990000;
   height:10.5em;
 }
 
 .logo {
-  background: url('//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-horz-logo.png?raw=true') top center no-repeat;
+  background: url('//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#990000;
+  background-color:#eecc33;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#990000;
-  color: #890000;
+  border-bottom-color:#eecc33;
+  color: #cccccc;
 }
 
 .header-page .tabs li a:hover,
@@ -47,34 +47,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #c8c8c8;
+    border-bottom-color: #990000;
 }
 
 .header-page .buttons button {
-  background-color: #c8c8c8;
+  background-color: #990000;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #990000;
+  background-color: #eecc33;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #890000;
-  color: #c8c8c8;
+  background-color: #cccccc;
+  color: #990000;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #990000;
+  background-color: #eecc33;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #c8c8c8;
+    background-color: #990000;
     color: #fff;
 }
 
@@ -84,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #990000;
+    background-color: #eecc33;
 }
 
 button:hover,
 button:focus {
-    background-color: #890000;
+    background-color: #cccccc;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #c8c8c8;
+    background-color: #990000;
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #b4b4b4;
+    background-color: 890000;
 }
 
 .user-info {
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #890000;
+    color: #cccccc;
 }
 
 .user-info a:hover,
@@ -133,16 +133,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #890000; /*default #007bff*/
+    color: #cccccc; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #890000;
+    background: #cccccc;
 }
 
 .footer {
-    background: #c8c8c8;	
+    background: #990000;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
