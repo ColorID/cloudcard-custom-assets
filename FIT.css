@@ -141,6 +141,7 @@ button.submit-login:focus
 .admin-links a {
     background: #cccccc;
     color: #353535;
+	font-weight: bold;
 	
 }
 
