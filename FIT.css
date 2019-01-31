@@ -147,6 +147,24 @@ table td {
     background: #990000;	
 }
 
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #ffffff;
+    color: #1a4980;
+    border-right: 3px solid #8aaf2a;
+    height: 100% !important;
+
+    &.nav-open {
+	background: #ffffff;
+    }
+	
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #1a4980 !important;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
