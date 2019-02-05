@@ -164,7 +164,7 @@ table td {
 .sidebar-mobile {
     background: #cccccc;
     color: #1a4980;
-    border-right: 3px solid #ffffff;
+    border-right: 3px solid #06274f;
     height: 100% !important;
 
     &.nav-open {
