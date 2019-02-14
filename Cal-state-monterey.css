@@ -3,13 +3,13 @@
 {{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/06274f ; use the second Shade -- just needs to be a little bit darker.)
 5e8ab4: (don't include the '#')
 {{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-//www.gonzaga.edu/ui/images/logo-public.png: //www.gonzaga.edu/ui/images/logo-public.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+//www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg
 
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
 html {
-  background: #06274f;
+  background: #fff;
 }
 
 .splash {
