@@ -1,20 +1,17 @@
 /*
-dddac7: (don't include the '#')
-{{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/dddac7 ; use the second Shade -- just needs to be a little bit darker.)
 002a4e: (don't include the '#')
-{{Color_2_Tint}}: #fff; (goto http://www.color-hex.com/color/002a4e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-//www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg
-
-https://colorid.github.io/cloudcard-custom-assets/Cal-state-monterey.css
-      
+002546: #002546; (goto http://www.color-hex.com/color/002a4e ; use the second Shade -- just needs to be a little bit darker.)
+dddac7: (don't include the '#')
+125a37: #125a37; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg: www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #dddac7;
+  background: #002a4e;
 }
 
 .splash {
-  background-color: #fff;
+  background-color: #002a4e;
 }
 
 .splash .loading path {
@@ -22,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #fff;
+  background-color: #002a4e;
   height:10.5em;
 }
 
@@ -34,12 +31,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#002a4e;
+  background-color:#dddac7;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#002a4e;
-  color: #fff;
+  border-bottom-color:#dddac7;
+  color: #125a37;
 }
 
 .header-page .tabs li a:hover,
@@ -50,34 +47,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #dddac7;
+    border-bottom-color: #002a4e;
 }
 
 .header-page .buttons button {
-  background-color: #dddac7;
+  background-color: #002a4e;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #002a4e;
+  background-color: #dddac7;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #fff;
-  color: #dddac7;
+  background-color: #125a37;
+  color: #002a4e;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #002a4e;
+  background-color: #dddac7;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #dddac7;
+    background-color: #002a4e;
     color: #fff;
 }
 
@@ -87,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #002a4e;
+    background-color: #dddac7;
 }
 
 button:hover,
 button:focus {
-    background-color: #fff;
+    background-color: #125a37;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #dddac7;
+    background-color: #002a4e;
 }
 
 router-view .buttons button.primary:hover,
@@ -109,20 +106,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: 052347;
+    background-color: #002546;
 }
 
 .user-info {
-    color: #002a4e;
+    color: #fff;
 }
 
 .user-info a {
-    color: #002a4e;
+    color: #125a37;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #002a4e;
+    color: #fff;
 }
 
 .open-nav {
@@ -132,52 +129,22 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #002a4e;
+    color: #fff;
 }
 
 .admin-links .fa {
-    color: #002a4e; /*default #007bff*/
-}
-
-.admin-links a {
-    background: #002a4e;
-    color: #353535;
-	font-weight: bold;
-	
-}
-
-.admin-links a:hover,
-.admin-links a:focus {
-    background: #e8e8e8;
+    color: #125a37; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #002a4e;
+    background: #125a37;
 }
 
 .footer {
     background: #002a4e;	
 }
 
-
-.sidebar-main,
-.sidebar-mobile {
-    background: #fff;
-    color: #1a4980;
-    border-right: 3px solid #dddac7;
-    height: 100% !important;
-
-    &.nav-open {
-	background: #fff;
-    }
-	
-}
-
-.sidebar-main h2,
-.sidebar-mobile h2 {
-    color: #1a4980 !important;
-}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
