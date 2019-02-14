@@ -1,8 +1,8 @@
 /*
 dddac7: (don't include the '#')
 {{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/dddac7 ; use the second Shade -- just needs to be a little bit darker.)
-5e8ab4: (don't include the '#')
-{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+002a4e: (don't include the '#')
+{{Color_2_Tint}}: #fff; (goto http://www.color-hex.com/color/002a4e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg
 
 https://colorid.github.io/cloudcard-custom-assets/Cal-state-monterey.css
@@ -34,11 +34,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#5e8ab4;
+  background-color:#002a4e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#5e8ab4;
+  border-bottom-color:#002a4e;
   color: #fff;
 }
 
@@ -59,18 +59,18 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #5e8ab4;
+  background-color: #002a4e;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #cccccc;
+  background-color: #fff;
   color: #dddac7;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #5e8ab4;
+  background-color: #002a4e;
   color: #fff;
    */
 }
@@ -87,12 +87,12 @@ header.header-page {
 }
 
 button {
-    background-color: #5e8ab4;
+    background-color: #002a4e;
 }
 
 button:hover,
 button:focus {
-    background-color: #cccccc;
+    background-color: #fff;
 }
 
 router-view .buttons button.primary,
@@ -117,7 +117,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #cccccc;
+    color: #fff;
 }
 
 .user-info a:hover,
@@ -136,11 +136,11 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #dddac7; /*default #007bff*/
+    color: #002a4e; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #cccccc;
+    background: #fff;
     color: #353535;
 	font-weight: bold;
 	
@@ -153,23 +153,23 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #cccccc;
+    background: #fff;
 }
 
 .footer {
-    background: #dddac7;	
+    background: #002a4e;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #cccccc;
+    background: #fff;
     color: #1a4980;
     border-right: 3px solid #dddac7;
     height: 100% !important;
 
     &.nav-open {
-	background: #cccccc;
+	background: #fff;
     }
 	
 }
