@@ -1,6 +1,6 @@
 /*
-06274f: (don't include the '#')
-{{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/06274f ; use the second Shade -- just needs to be a little bit darker.)
+dddac7: (don't include the '#')
+{{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/dddac7 ; use the second Shade -- just needs to be a little bit darker.)
 5e8ab4: (don't include the '#')
 {{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg
@@ -50,11 +50,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #06274f;
+    border-bottom-color: #dddac7;
 }
 
 .header-page .buttons button {
-  background-color: #06274f;
+  background-color: #dddac7;
   color: #fff;
 }
 
@@ -67,7 +67,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #cccccc;
-  color: #06274f;
+  color: #dddac7;
 
   /* Alternative if the above doesn't look so great.
   background-color: #5e8ab4;
@@ -77,7 +77,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #06274f;
+    background-color: #dddac7;
     color: #fff;
 }
 
@@ -99,7 +99,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #06274f;
+    background-color: #dddac7;
 }
 
 router-view .buttons button.primary:hover,
@@ -136,7 +136,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #06274F; /*default #007bff*/
+    color: #dddac7; /*default #007bff*/
 }
 
 .admin-links a {
@@ -157,7 +157,7 @@ table td {
 }
 
 .footer {
-    background: #06274f;	
+    background: #dddac7;	
 }
 
 
@@ -165,7 +165,7 @@ table td {
 .sidebar-mobile {
     background: #cccccc;
     color: #1a4980;
-    border-right: 3px solid #06274f;
+    border-right: 3px solid #dddac7;
     height: 100% !important;
 
     &.nav-open {
