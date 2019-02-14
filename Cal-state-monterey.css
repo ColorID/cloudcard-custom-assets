@@ -1,0 +1,192 @@
+/*
+06274f: (don't include the '#')
+{{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/06274f ; use the second Shade -- just needs to be a little bit darker.)
+5e8ab4: (don't include the '#')
+{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+//www.gonzaga.edu/ui/images/logo-public.png: //www.gonzaga.edu/ui/images/logo-public.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+
+https://colorid.github.io/cloudcard-custom-assets/FIT.css
+*/
+
+html {
+  background: #06274f;
+}
+
+.splash {
+  background-color: #06274f;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #06274f;
+  height:10.5em;
+}
+
+.logo {
+  background: url('//www.gonzaga.edu/ui/images/logo-public.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#5e8ab4;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#5e8ab4;
+  color: #fff;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #06274f;
+}
+
+.header-page .buttons button {
+  background-color: #06274f;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #5e8ab4;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #cccccc;
+  color: #06274f;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #5e8ab4;
+  color: #fff;
+   */
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #06274f;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #5e8ab4;
+}
+
+button:hover,
+button:focus {
+    background-color: #cccccc;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #06274f;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: 052347;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #cccccc;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #06274F; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #cccccc;
+    color: #353535;
+	font-weight: bold;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #e8e8e8;
+}
+
+table th,
+table td {
+    background: #cccccc;
+}
+
+.footer {
+    background: #06274f;	
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #cccccc;
+    color: #1a4980;
+    border-right: 3px solid #06274f;
+    height: 100% !important;
+
+    &.nav-open {
+	background: #cccccc;
+    }
+	
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #1a4980 !important;
+}
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
