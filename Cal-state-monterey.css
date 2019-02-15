@@ -15,7 +15,7 @@ html {
 }
 
 .splash .loading path {
-  fill: #fff;
+  fill: #47acad;
 }
 
 header.header-main {
@@ -53,12 +53,12 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #002a4e;
-  color: #fff;
+  color: #002a4e;
 }
 
 .header-page button {
-  background-color: #dddac7;
-  color: #fff;
+  background-color: #002a4e;
+  color: #002a4e;
 }
 
 .header-page .buttons button:hover,
