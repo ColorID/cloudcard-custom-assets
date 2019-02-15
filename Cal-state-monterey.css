@@ -36,28 +36,28 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#002a4e;
+  border-bottom-color:#dddac7;
   color: #dddac7;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #002a4e;
+  color: #fff;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #dddac7;
+    border-bottom-color: #002a4e;
 }
 
 .header-page .buttons button {
-  background-color: #dddac7;
+  background-color: #002a4e;
   color: #002a4e;
 }
 
 .header-page button {
-  background-color: #dddac7;
+  background-color: #002a4e;
   color: #002a4e;
 }
 
