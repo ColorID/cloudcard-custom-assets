@@ -21,6 +21,7 @@ html {
 header.header-main {
   background-color: #fff;
   height:10.5em;
+	border-bottom: 3px solid #4c6b83;
 }
 
 .logo {
