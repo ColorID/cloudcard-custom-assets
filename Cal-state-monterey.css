@@ -15,7 +15,7 @@ html {
 }
 
 .splash .loading path {
-  fill: #47acad;
+  fill: #002a4e;
 }
 
 header.header-main {
@@ -36,14 +36,14 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#dddac7;
+  border-bottom-color:#002a4e;
   color: #dddac7;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #fff;
+  color: #dddac7;
 }
 
 /* Keep this block only if it looks good. */
@@ -53,12 +53,12 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #002a4e;
-  color: #002a4e;
+  color: #dddac7;
 }
 
 .header-page button {
   background-color: #002a4e;
-  color: #002a4e;
+  color: #dddac7;
 }
 
 .header-page .buttons button:hover,
