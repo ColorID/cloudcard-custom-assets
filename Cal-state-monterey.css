@@ -2,7 +2,7 @@
 002a4e: (don't include the '#')
 002546: #002546; (goto http://www.color-hex.com/color/002a4e ; use the second Shade -- just needs to be a little bit darker.)
 dddac7: (don't include the '#')
-125a37: #125a37; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+dddac7: #dddac7; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg: www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -37,7 +37,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#dddac7;
-  color: #125a37;
+  color: #dddac7;
 }
 
 .header-page .tabs li a:hover,
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #125a37;
+  background-color: #dddac7;
   color: #002a4e;
 
   /* Alternative if the above doesn't look so great.
@@ -90,7 +90,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #125a37;
+    background-color: #dddac7;
 }
 
 router-view .buttons button.primary,
@@ -115,7 +115,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #125a37;
+    color: #dddac7;
 }
 
 .user-info a:hover,
@@ -147,7 +147,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #4c6b83;
+    background: #dddac7;
 }
 
 .admin-links .fa {
@@ -159,7 +159,7 @@ table td {
 .sidebar-mobile {
     background: #dddac7;
     color: #002e4e;
-    border-right: 3px solid #4c6b83;
+    border-right: 3px solid #002a4e;
     height: 100% !important;
 
     &.nav-open {
