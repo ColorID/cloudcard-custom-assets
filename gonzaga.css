@@ -1,17 +1,18 @@
 /*
-002a4e: (don't include the '#')
-002546: #002546; (goto http://www.color-hex.com/color/002a4e ; use the second Shade -- just needs to be a little bit darker.)
-dddac7: (don't include the '#')
-125a37: #125a37; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg: www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+06274f: (don't include the '#')
+{{Color_1_Shade}}: 052347; (goto http://www.color-hex.com/color/06274f ; use the second Shade -- just needs to be a little bit darker.)
+5e8ab4: (don't include the '#')
+{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+//www.gonzaga.edu/ui/images/logo-public.png: //www.gonzaga.edu/ui/images/logo-public.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
 html {
-  background: #002a4e;
+  background: #06274f;
 }
 
 .splash {
-  background-color: #002a4e;
+  background-color: #06274f;
 }
 
 .splash .loading path {
@@ -19,24 +20,24 @@ html {
 }
 
 header.header-main {
-  background-color: #fff;
+  background-color: #06274f;
   height:10.5em;
 }
 
 .logo {
-  background: url('//www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg') top center no-repeat;
+  background: url('//www.gonzaga.edu/ui/images/logo-public.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#002a4e;
+  background-color:#5e8ab4;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#dddac7;
-  color: #125a37;
+  border-bottom-color:#5e8ab4;
+  color: #fff;
 }
 
 .header-page .tabs li a:hover,
@@ -47,34 +48,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #002a4e;
+    border-bottom-color: #06274f;
 }
 
 .header-page .buttons button {
-  background-color: #002a4e;
+  background-color: #06274f;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #dddac7;
+  background-color: #5e8ab4;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #125a37;
-  color: #002a4e;
+  background-color: #cccccc;
+  color: #06274f;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #dddac7;
+  background-color: #5e8ab4;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #002a4e;
+    background-color: #06274f;
     color: #fff;
 }
 
@@ -84,19 +85,19 @@ header.header-page {
 }
 
 button {
-    background-color: #dddac7;
+    background-color: #5e8ab4;
 }
 
 button:hover,
 button:focus {
-    background-color: #125a37;
+    background-color: #cccccc;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #002a4e;
+    background-color: #06274f;
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +107,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #002546;
+    background-color: 052347;
 }
 
 .user-info {
@@ -114,16 +115,16 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #125a37;
+    color: #cccccc;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #dddac7;
+    color: #fff;
 }
 
 .open-nav {
-    color: #dddac7;
+    color: #ddd;
 }
 
 .open-nav:hover,
@@ -132,8 +133,12 @@ button.submit-login:focus
     color: #fff;
 }
 
+.admin-links .fa {
+    color: #06274F; /*default #007bff*/
+}
+
 .admin-links a {
-    background: #dddac7;
+    background: #cccccc;
     color: #353535;
 	font-weight: bold;
 	
@@ -141,42 +146,36 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #dddac7;
+    background: #e8e8e8;
 }
 
 table th,
 table td {
-    background: #4c6b83;
+    background: #cccccc;
 }
 
-.admin-links .fa {
-    color: #002a4e; /*default #007bff*/
+.footer {
+    background: #06274f;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #dddac7;
-    color: #002e4e;
-    border-right: 3px solid #4c6b83;
+    background: #cccccc;
+    color: #1a4980;
+    border-right: 3px solid #06274f;
     height: 100% !important;
 
     &.nav-open {
-	background: #dddac7;
+	background: #cccccc;
     }
 	
 }
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #002a4e !important;
+    color: #1a4980 !important;
 }
-
-.footer {
-    background: #002a4e;	
-}
-
-
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
