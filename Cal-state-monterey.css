@@ -76,12 +76,12 @@ header.header-page {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #002a4e;
-    color: #dddac7;
+    color: #fff;
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #dddac7;
+    color: #fff;
 }
 
 button {
