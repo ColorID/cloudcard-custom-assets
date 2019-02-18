@@ -16,6 +16,7 @@ html {
 
 .splash .loading path {
   fill: #fff;
+border-bottom: 3px solid #00843d;
 }
 
 header.header-main {
@@ -132,12 +133,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #f4f4f4; /*default #007bff*/
+    color: #0126a; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #cdcac6;
+    background: #f4f4f4;
 }
 
 .footer {
@@ -145,7 +146,7 @@ table td {
 }
 
 .admin-links a {
-    background: #cccccc;
+    background: #f4f4f4;
     color: #353535;
 	font-weight: bold;
 	
@@ -153,18 +154,18 @@ table td {
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #e8e8e8;
+    background: #cccccc;
 }
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #cccccc;
+    background: #f4f4f4;
     color: #01426a;
     border-right: 3px solid #00843d;
     height: 100% !important;
 
     &.nav-open {
-	background: #cccccc;
+	background: #f4f4f4;
     }
 	
 }
@@ -176,7 +177,7 @@ table td {
 
 ul.photo-requirements {
 	
-	background-color:#cccccc;
+	background-color:#f4f4f4;
 }
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
