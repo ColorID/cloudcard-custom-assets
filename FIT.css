@@ -177,6 +177,11 @@ table td {
 .sidebar-mobile h2 {
     color: #1a4980 !important;
 }
+
+ul.photo-requirements {
+	
+	background-color:#cccccc;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
