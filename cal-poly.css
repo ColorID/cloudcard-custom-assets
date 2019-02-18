@@ -16,12 +16,13 @@ html {
 
 .splash .loading path {
   fill: #fff;
-border-bottom: 3px solid #00843d;
+
 }
 
 header.header-main {
   background-color: #f4f4f4 ;
   height:10.5em;
+	border-bottom: 3px solid #00843d
 }
 
 .logo {
