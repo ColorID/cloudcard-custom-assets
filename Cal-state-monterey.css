@@ -115,7 +115,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #dddac7;
+    color: #125a37;
 }
 
 .user-info a:hover,
@@ -168,14 +168,17 @@ table td {
 	
 }
 
+
+ul.photo-requirements {
+	background-color: #dddac7
+}
+
+
 .sidebar-main h2,
 .sidebar-mobile h2 {
     color: #002a4e !important;
 }
 
-ul.photo-requirements {
-	background-color: #dddac7
-}
 
 .footer {
     background: #002a4e;	
