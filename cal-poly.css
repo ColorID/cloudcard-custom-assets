@@ -91,14 +91,14 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #cdcac6;
+    background-color: #00843d;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #00843D;
+    background-color: #cdcac6;
 }
 
 router-view .buttons button.primary:hover,
