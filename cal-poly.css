@@ -144,6 +144,40 @@ table td {
     background: #01426a;
 }
 
+.admin-links a {
+    background: #cccccc;
+    color: #353535;
+	font-weight: bold;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #e8e8e8;
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #cccccc;
+    color: #01426a;
+    border-right: 3px solid #00843d;
+    height: 100% !important;
+
+    &.nav-open {
+	background: #cccccc;
+    }
+	
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #01426a !important;
+}
+
+ul.photo-requirements {
+	
+	background-color:#cccccc;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
