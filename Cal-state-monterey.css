@@ -173,6 +173,10 @@ table td {
     color: #002a4e !important;
 }
 
+ul.photo-requirements {
+	background-color: #dddac7
+}
+
 .footer {
     background: #002a4e;	
 }
