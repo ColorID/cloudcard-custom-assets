@@ -4,6 +4,7 @@
 5e8ab4: (don't include the '#')
 {{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/5e8ab4 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //www.gonzaga.edu/ui/images/logo-public.png: //www.gonzaga.edu/ui/images/logo-public.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
@@ -175,6 +176,11 @@ table td {
 .sidebar-main h2,
 .sidebar-mobile h2 {
     color: #1a4980 !important;
+}
+
+ul.photo-requirements {
+	
+	background-color:#cccccc;
 }
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
