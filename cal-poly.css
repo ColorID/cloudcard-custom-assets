@@ -22,7 +22,8 @@ html {
 header.header-main {
   background-color: #f4f4f4 ;
   height:10.5em;
-border-bottom: 3px solid #00843d;
+	border-bottom: 3px solid #00843d;
+
 }
 
 .logo {
@@ -64,8 +65,8 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #cdcac6;
-  color: #115740;
+  background-color: #ebe2cf;
+  color: #01426a;
 
   /* Alternative if the above doesn't look so great.
   background-color: #01426a;
@@ -134,7 +135,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #0126a; /*default #007bff*/
+    color: #01426a; /*default #007bff*/
 }
 
 table th,
