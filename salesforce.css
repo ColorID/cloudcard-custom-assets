@@ -5,6 +5,11 @@
 {{Color_2}}: 8aaf2a
 {{Color_2_Tint}}: #e7efd4; (goto http://www.color-hex.com/color/8aaf2a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/salesforce/salesforcelogo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+
+
+https://ColorID.github.io/cloudcard-custom-assets/salesforce.css
+      
+
 */
 
 html {
@@ -155,6 +160,11 @@ table td {
     background: #e7efd4;
 }
 
+
+ul.photo-requirements {
+	
+	background-color:#fff
+}
 .footer {
     background: #00a1e0;
     border-top: 3px solid #00a1e0;
