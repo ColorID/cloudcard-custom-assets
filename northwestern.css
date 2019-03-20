@@ -7,7 +7,7 @@ Lt. Purple - #B6ACD1
 4e2a84: (don't include the '#')
 {{Color_1_Shade}}: 401f68; (goto http://www.color-hex.com/color/4e2a84 ; use the second Shade -- just needs to be a little bit darker.)
 b6acd1: (don't include the '#')
-{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/b6acd1 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2_Tint}}: #D8D6D6; (goto http://www.color-hex.com/color/b6acd1 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //common.northwestern.edu/v8/css/images/northwestern.svg: //common.northwestern.edu/v8/css/images/northwestern.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 
 https://colorid.github.io/cloudcard-custom-assets/northwestern.css
@@ -72,7 +72,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #cccccc;
+  background-color: #D8D6D6;
   color: #4e2a84;
 
   /* Alternative if the above doesn't look so great.
@@ -98,7 +98,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #cccccc;
+    background-color: #D8D6D6;
 }
 
 router-view .buttons button.primary,
@@ -123,7 +123,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #cccccc;
+    color: #D8D6D6;
 }
 
 .user-info a:hover,
@@ -146,7 +146,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #cccccc;
+    background: #D8D6D6;
     color: #353535;
 	font-weight: bold;
 	
@@ -154,12 +154,12 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #e8e8e8;
+    background: #bbb8b8;
 }
 
 table th,
 table td {
-    background: #cccccc;
+    background: #D8D6D6;
 }
 
 .footer {
@@ -169,13 +169,13 @@ table td {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #cccccc;
+    background: #D8D6D6;
     color: #836eaa;
     border-right: 3px solid #4e2a84;
     height: 100% !important;
 
     &.nav-open {
-	background: #cccccc;
+	background: #D8D6D6;
     }
 	
 }
@@ -187,7 +187,7 @@ table td {
 
 ul.photo-requirements {
 	
-	background-color:#cccccc;
+	background-color:#D8D6D6;
 }
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
