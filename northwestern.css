@@ -65,7 +65,7 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #fff;
+  color: #342f2e;
 }
 
 /* Keep this block only if it looks good. */
@@ -98,11 +98,6 @@ color: #342f2e
    */
 }
 
-.header-page .tabs li a:hover,
-.header-page .tabs li a:focus
-{
-  color: #342f2e;
-}
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
