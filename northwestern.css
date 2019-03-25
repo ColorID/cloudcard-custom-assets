@@ -184,6 +184,11 @@ table th {
 table td {
     background: #f0f0f0;
 }
+table a {
+    color: #342f2e;
+    text-decoration: underline;
+}
+
 
 .footer {
     background: #4e2a84;	
