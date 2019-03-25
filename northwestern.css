@@ -174,9 +174,14 @@ button.submit-login:focus
     background: #bbb8b8;
 }
 
-table th,
+table th {
+	
+	background: #401f68
+		color: #ffffff
+}
+
 table td {
-    background: #D8D6D6;
+    background: #f0f0f0;
 }
 
 .footer {
@@ -206,6 +211,7 @@ ul.photo-requirements {
 	
 	background-color:#D8D6D6;
 }
+
 
 
 /* Uncomment this block if the organization has a Plus Account.
