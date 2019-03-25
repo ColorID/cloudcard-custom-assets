@@ -98,6 +98,12 @@ color: #342f2e
    */
 }
 
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #342f2e;
+}
+
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #4e2a84;
