@@ -1,7 +1,7 @@
 /*
 
 Main purple- #4E2A84
-Darker Purple - #401F68
+Darker Purple - #border: 2px solid #fff;
 Md puple - #836EAA
 Lt. Purple - #B6ACD1
 4e2a84: (don't include the '#')
@@ -58,8 +58,8 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#b6acd1;
-  color: #fff;
+  border-bottom-color:#e4e0ee;
+  color: #342f2e;
 }
 
 .header-page .tabs li a:hover,
@@ -75,7 +75,8 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #4e2a84;
-  color: #4e2a84;
+  color: #fff;
+	border: 2px solid #401f68;
 }
 
 .header-page button {
