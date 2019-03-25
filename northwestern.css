@@ -40,7 +40,21 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#b6acd1;
+  background-color:#e4e0ee;
+}
+
+.header-page h1 {
+    color: #342f2e;
+    padding-right: 0.73684em;
+}
+
+.header-page .filters select {
+	    border: 1px solid #4e2a84;
+}
+
+.header-page .fa-search {
+	color: #4e2a84 !important;
+	
 }
 
 .header-page .tabs li a {
@@ -61,7 +75,7 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #4e2a84;
-  color: #fff;
+  color: #4e2a84;
 }
 
 .header-page button {
