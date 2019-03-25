@@ -76,9 +76,11 @@ header.header-page {
 .header-page .buttons button {
   background-color: #4e2a84;
   color: #fff;
-	border: 2px solid #401f68;
+	border: 1px solid #401f68;
 }
-
+.header-page .tabs a.active {
+color: #342f2e	
+}
 .header-page button {
   background-color: #b6acd1;
   color: #fff;
@@ -203,6 +205,11 @@ table td {
 ul.photo-requirements {
 	
 	background-color:#D8D6D6;
+}
+
+
+thead {
+	color: #401f68 !important;
 }
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
