@@ -185,11 +185,14 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #342f2e;
+    color: #4e2a84;
     text-decoration: underline;
 }
 
-
+.header-page .filters .filter:after {
+	
+	Color: #4e2a84;
+}
 .footer {
     background: #4e2a84;	
 }
