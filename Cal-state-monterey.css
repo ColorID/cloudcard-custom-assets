@@ -174,6 +174,10 @@ table th {
 		color: #ffffff
 }
 
+photo-list-header.photo-list-columns {
+    background: #4c6b83;
+    color: #ffffff;
+}
 ul.photo-requirements {
 	background-color: #dddac7
 }
