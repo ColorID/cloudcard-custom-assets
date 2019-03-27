@@ -168,6 +168,11 @@ table td {
 	
 }
 
+table th {
+	
+	background: #4c6b83;
+		color: #ffffff
+}
 
 ul.photo-requirements {
 	background-color: #dddac7
