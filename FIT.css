@@ -59,11 +59,12 @@ header.header-page {
 .header-page .buttons button {
   background-color: #990000;
   color: #e3e3e3;
+	border: #990000;
 }
 
 .header-page button {
-  background-color: #cccccc;
-  color: #fff;
+  background-color: #770000;
+  color: #e3e3e3;
 }
 
 .header-page .buttons button:hover,
@@ -161,7 +162,7 @@ table th {
 }
 
 table td {
-    background: #cccccc;
+    background: #e8e8e8;
 }
 table a {
     color: #333333;
@@ -199,7 +200,7 @@ ul.photo-requirements {
 }
 
 .header-page .filters select {
-	    border: 1px solid #77000;
+	    border: 1px solid #770000;
 	color: #e3e3e3;
 }
 
