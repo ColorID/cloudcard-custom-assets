@@ -159,7 +159,7 @@ button.submit-login:focus
 table th {
 	
 	background: #990000;
-		color: #cccccc
+		color: #cccccc;
 }
 
 table td {
@@ -203,7 +203,7 @@ ul.photo-requirements {
 .header-page .filters select {
 	    border: 1px solid #770000;
 	color: #e3e3e3;
-	background-color: #990000
+	background-color: #990000;
 }
 
 .header-page .fa-search {
