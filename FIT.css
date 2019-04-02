@@ -53,7 +53,8 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #990000;
+    border-bottom-color: #333333;
+	color: #990000;
 }
 
 .header-page .buttons button {
@@ -113,7 +114,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: 890000;
+    background-color: #890000;
 }
 
 .user-info {
@@ -140,7 +141,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #333333; /*default #007bff*/
+    color: #990000; /*default #007bff*/
 }
 
 .admin-links a {
@@ -200,8 +201,8 @@ ul.photo-requirements {
 }
 
 .header-page .filters select {
-	    border: 1px solid #770000;
-	color: #e3e3e3;
+	    border: 2px solid #770000;
+	color: #990000;
 }
 
 .header-page .fa-search {
