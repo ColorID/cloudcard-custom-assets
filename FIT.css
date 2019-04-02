@@ -201,8 +201,9 @@ ul.photo-requirements {
 }
 
 .header-page .filters select {
-	    border: 2px solid #770000;
-	color: #990000;
+	    border: 1px solid #770000;
+	color: #e3e3e3;
+	background-color: #990000
 }
 
 .header-page .fa-search {
