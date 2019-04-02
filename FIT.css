@@ -197,6 +197,17 @@ ul.photo-requirements {
 	
 	background-color:#cccccc;
 }
+
+.header-page .filters select {
+	    border: 1px solid #77000;
+	color: #e3e3e3;
+}
+
+.header-page .fa-search {
+	color: #990000 !important;
+	
+}
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
