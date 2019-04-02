@@ -1,8 +1,8 @@
 /*
 990000: (don't include the '#')
-{{Color_1_Shade}}: 890000; (goto http://www.color-hex.com/color/990000 ; use the second Shade -- just needs to be a little bit darker.)
-84754e: (don't include the '#')
-{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/84754e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_1_Shade}}: #890000; (goto http://www.color-hex.com/color/990000 ; use the second Shade -- just needs to be a little bit darker.)
+cccccc: (don't include the '#')
+{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/cccccc ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 //www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true: //www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
@@ -33,11 +33,15 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#84754e;
+  background-color:#cccccc;
+}
+
+.header-page h1 {
+  color:#333333;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#84754e;
+  border-bottom-color:#cccccc;
   color: #fff;
 }
 
@@ -58,7 +62,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #84754e;
+  background-color: #cccccc;
   color: #fff;
 }
 
@@ -69,7 +73,7 @@ header.header-page {
   color: #990000;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #84754e;
+  background-color: #cccccc;
   color: #fff;
    */
 }
@@ -86,7 +90,7 @@ header.header-page {
 }
 
 button {
-    background-color: #84754e;
+    background-color: #cccccc;
 }
 
 button:hover,
@@ -135,7 +139,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #84754e; /*default #007bff*/
+    color: #cccccc; /*default #007bff*/
 }
 
 .admin-links a {
