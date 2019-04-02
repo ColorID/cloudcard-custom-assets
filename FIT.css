@@ -42,13 +42,13 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#cccccc;
-  color: #fff;
+  color: #333333;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #fff;
+  color: #222222;
 }
 
 /* Keep this block only if it looks good. */
@@ -58,7 +58,7 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #990000;
-  color: #fff;
+  color: #e3e3e3;
 }
 
 .header-page button {
@@ -69,8 +69,8 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #cccccc;
-  color: #990000;
+  background-color: #770000;
+  color: #e3e3e3;
 
   /* Alternative if the above doesn't look so great.
   background-color: #cccccc;
@@ -90,12 +90,12 @@ header.header-page {
 }
 
 button {
-    background-color: #cccccc;
+    background-color: #770000;
 }
 
 button:hover,
 button:focus {
-    background-color: #cccccc;
+    background-color: #990000;
 }
 
 router-view .buttons button.primary,
@@ -190,7 +190,7 @@ table a {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #1a4980 !important;
+    color: #770000 !important;
 }
 
 ul.photo-requirements {
