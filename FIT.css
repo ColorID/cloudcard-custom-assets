@@ -69,16 +69,15 @@ header.header-page {
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus 
-{
+.header-page .buttons button:focus {
   background-color: #770000;
   color: #e3e3e3;
-
+}
   /* Alternative if the above doesn't look so great.
   background-color: #cccccc;
   color: #fff;
    */
-}
+
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
@@ -210,7 +209,10 @@ ul.photo-requirements {
 	color: #990000 !important;
 	
 }
-
+photo-list-header.photo-list-columns {
+    background: #990000 !important ;
+    color: #ccc !important;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
