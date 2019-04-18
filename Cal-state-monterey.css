@@ -2,7 +2,7 @@
 002a4e: (don't include the '#')
 002546: #002546; (goto http://www.color-hex.com/color/002a4e ; use the second Shade -- just needs to be a little bit darker.)
 dddac7: (don't include the '#')
-dddac7: #dddac7; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+dddac7: #eceade; (goto http://www.color-hex.com/color/dddac7 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg: www.csumb.edu/sites/all/themes/custom/steinbeck/img/logos/csumb-logo-blue.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -37,38 +37,38 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#002a4e;
-  color: #dddac7;
+  color: #eceade;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #dddac7;
+  color: #eceade;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #dddac7;
+    border-bottom-color: #eceade;
 }
 
 .header-page .buttons button {
   background-color: #002a4e;
-  color: #dddac7;
+  color: #eceade;
 }
 
 .header-page button {
   background-color: #002a4e;
-  color: #dddac7;
+  color: #eceade;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #dddac7;
+  background-color: #eceade;
   color: #002a4e;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #dddac7;
+  background-color: #eceade;
   color: #fff;
    */
 }
@@ -85,12 +85,12 @@ header.header-page {
 }
 
 button {
-    background-color: #dddac7;
+    background-color: #eceade;
 }
 
 button:hover,
 button:focus {
-    background-color: #dddac7;
+    background-color: #eceade;
 }
 
 router-view .buttons button.primary,
@@ -124,7 +124,7 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #dddac7;
+    color: #eceade;
 }
 
 .open-nav:hover,
@@ -134,7 +134,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #dddac7;
+    background: #eceade;
     color: #353535;
 	font-weight: bold;
 	
@@ -142,12 +142,12 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #dddac7;
+    background: #eceade;
 }
 
 table th,
 table td {
-    background: #dddac7;
+    background: #eceade;
 }
 
 .admin-links .fa {
@@ -157,29 +157,20 @@ table td {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #dddac7;
+    background: #eceade;
     color: #002e4e;
     border-right: 3px solid #002a4e;
     height: 100% !important;
 
     &.nav-open {
-	background: #dddac7;
+	background: #eceade;
     }
 	
 }
 
-table th {
-	
-	background: #4c6b83;
-		color: #ffffff
-}
 
-photo-list-header.photo-list-columns {
-    background: #4c6b83;
-    color: #ffffff;
-}
 ul.photo-requirements {
-	background-color: #dddac7
+	background-color: #eceade
 }
 
 
