@@ -182,6 +182,10 @@ ul.photo-requirements {
 	
 	background-color:#cccccc;
 }
+
+#email-templates-link {
+	display: unset !important;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
