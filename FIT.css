@@ -8,6 +8,8 @@ cccccc: (don't include the '#')
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
+
+
 html {
   background: #990000;
 }
@@ -26,7 +28,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/FIT-white-horz-logo.png?raw=true') top center no-repeat;
+  background: url('//www.github.com/ColorID/cloudcard-custom-assets/FIT-white-horz-logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
