@@ -24,6 +24,7 @@ html {
 
 header.header-main {
   background-color: #770000;
+	border-bottom: 3px solid #ab946c;
   height:10.5em;
 }
 
@@ -174,7 +175,7 @@ table a {
 
 
 .footer {
-    background: #ab946c;	
+    background: #770000;	
 }
 
 
