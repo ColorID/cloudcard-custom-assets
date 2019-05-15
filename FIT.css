@@ -1,8 +1,8 @@
 /*
-990000: (don't include the '#')
-{{Color_1_Shade}}: #890000; (goto http://www.color-hex.com/color/990000 ; use the second Shade -- just needs to be a little bit darker.)
-cccccc: (don't include the '#')
-{{Color_2_Tint}}: #cccccc; (goto http://www.color-hex.com/color/cccccc ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+770000: (don't include the '#')
+{{Color_1_Shade}}: #890000; (goto http://www.color-hex.com/color/770000 ; use the second Shade -- just needs to be a little bit darker.)
+dcd0c9: (don't include the '#')
+{{Color_2_Tint}}: #dcd0c9; (goto http://www.color-hex.com/color/dcd0c9 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 https://colorid.github.io/cloudcard-custom-assets/Florida-Tech-Primary_stacked_white-gold.png
 
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
@@ -11,11 +11,11 @@ https://colorid.github.io/cloudcard-custom-assets/FIT.css
 
 
 html {
-  background: #990000;
+  background: #770000;
 }
 
 .splash {
-  background-color: #990000;
+  background-color: #770000;
 }
 
 .splash .loading path {
@@ -23,7 +23,7 @@ html {
 }
 
 header.header-main {
-  background-color: #990000;
+  background-color: #770000;
   height:10.5em;
 }
 
@@ -35,7 +35,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#cccccc;
+  background-color:#dcd0c9;
 }
 
 .header-page h1 {
@@ -43,7 +43,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#cccccc;
+  border-bottom-color:#dcd0c9;
   color: #333333;
 }
 
@@ -56,34 +56,34 @@ header.header-page {
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
     border-bottom-color: #333333;
-	color: #990000;
+	color: #770000;
 }
 
 .header-page .buttons button {
-  background-color: #990000;
+  background-color: #770000;
   color: #e3e3e3;
-	border: #990000;
+	border: #770000;
 }
 
 .header-page button {
-  background-color: #770000;
+  background-color: #990000;
   color: #e3e3e3;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus {
-  background-color: #770000;
+  background-color: #990000;
   color: #e3e3e3;
 }
   /* Alternative if the above doesn't look so great.
-  background-color: #cccccc;
+  background-color: #dcd0c9;
   color: #fff;
    */
 
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #990000;
+    background-color: #770000;
     color: #fff;
 }
 
@@ -93,19 +93,19 @@ header.header-page {
 }
 
 button {
-    background-color: #770000;
+    background-color: #990000;
 }
 
 button:hover,
 button:focus {
-    background-color: #990000;
+    background-color: #770000;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #990000;
+    background-color: #770000;
 }
 
 router-view .buttons button.primary:hover,
@@ -123,7 +123,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #cccccc;
+    color: #dcd0c9;
 }
 
 .user-info a:hover,
@@ -142,11 +142,11 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #990000; /*default #007bff*/
+    color: #770000; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #cccccc;
+    background: #dcd0c9;
     color: #353535;
 	font-weight: bold;
 	
@@ -159,8 +159,8 @@ button.submit-login:focus
 
 table th {
 	
-	background: #990000;
-		color: #cccccc;
+	background: #770000;
+		color: #dcd0c9;
 }
 
 table td {
@@ -174,45 +174,45 @@ table a {
 
 
 .footer {
-    background: #770000;	
+    background: #990000;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #cccccc;
-    color: #770000;
+    background: #dcd0c9;
+    color: #990000;
     border-right: 3px solid #333333;
     height: 100% !important;
 
     &.nav-open {
-	background: #cccccc;
+	background: #dcd0c9;
     }
 	
 }
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #770000 !important;
+    color: #990000 !important;
 }
 
 ul.photo-requirements {
 	
-	background-color:#cccccc;
+	background-color:#dcd0c9;
 }
 
 .header-page .filters select {
-	    border: 1px solid #770000;
+	    border: 1px solid #990000;
 	color: #e3e3e3;
-	background-color: #990000;
+	background-color: #770000;
 }
 
 .header-page .fa-search {
-	color: #990000 !important;
+	color: #770000 !important;
 	
 }
 photo-list-header.photo-list-columns {
-    background: #990000 !important ;
+    background: #770000 !important ;
     color: #ccc !important;
 }
 /* Uncomment this block if the organization has a Plus Account.
