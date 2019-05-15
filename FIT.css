@@ -1,8 +1,8 @@
 /*
 770000: (don't include the '#')
 {{Color_1_Shade}}: #890000; (goto http://www.color-hex.com/color/770000 ; use the second Shade -- just needs to be a little bit darker.)
-dcd0c9: (don't include the '#')
-{{Color_2_Tint}}: #dcd0c9; (goto http://www.color-hex.com/color/dcd0c9 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+d5d0c9: (don't include the '#')
+{{Color_2_Tint}}: #d5d0c9; (goto http://www.color-hex.com/color/d5d0c9 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 https://colorid.github.io/cloudcard-custom-assets/Florida-Tech-Primary_stacked_white-gold.png
 
 https://colorid.github.io/cloudcard-custom-assets/FIT.css
@@ -35,7 +35,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#dcd0c9;
+  background-color:#d5d0c9;
 }
 
 .header-page h1 {
@@ -43,7 +43,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#dcd0c9;
+  border-bottom-color:#d5d0c9;
   color: #333333;
 }
 
@@ -76,7 +76,7 @@ header.header-page {
   color: #e3e3e3;
 }
   /* Alternative if the above doesn't look so great.
-  background-color: #dcd0c9;
+  background-color: #d5d0c9;
   color: #fff;
    */
 
@@ -123,7 +123,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #dcd0c9;
+    color: #d5d0c9;
 }
 
 .user-info a:hover,
@@ -146,7 +146,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #dcd0c9;
+    background: #d5d0c9;
     color: #353535;
 	font-weight: bold;
 	
@@ -160,7 +160,7 @@ button.submit-login:focus
 table th {
 	
 	background: #770000;
-		color: #dcd0c9;
+		color: #d5d0c9;
 }
 
 table td {
@@ -180,13 +180,13 @@ table a {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #dcd0c9;
+    background: #d5d0c9;
     color: #990000;
     border-right: 3px solid #333333;
     height: 100% !important;
 
     &.nav-open {
-	background: #dcd0c9;
+	background: #d5d0c9;
     }
 	
 }
@@ -198,7 +198,7 @@ table a {
 
 ul.photo-requirements {
 	
-	background-color:#dcd0c9;
+	background-color:#d5d0c9;
 }
 
 .header-page .filters select {
