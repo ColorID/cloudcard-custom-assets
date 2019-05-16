@@ -1,26 +1,21 @@
 /*
+770000: (don't include the '#')
+{{Color_1_Shade}}: #890000; (goto http://www.color-hex.com/color/770000 ; use the second Shade -- just needs to be a little bit darker.)
+d5d0c9: (don't include the '#')
+{{Color_2_Tint}}: #d5d0c9; (goto http://www.color-hex.com/color/d5d0c9 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+https://colorid.github.io/cloudcard-custom-assets/Florida-Tech-Primary_stacked_white-gold.png
 
-Main purple- #4E2A84
-Darker Purple - #border: 2px solid #fff;
-Md puple - #836EAA
-Lt. Purple - #B6ACD1
-4e2a84: (don't include the '#')
-{{Color_1_Shade}}: 401f68; (goto http://www.color-hex.com/color/4e2a84 ; use the second Shade -- just needs to be a little bit darker.)
-b6acd1: (don't include the '#')
-{{Color_2_Tint}}: #D8D6D6; (goto http://www.color-hex.com/color/b6acd1 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg: https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
-
-https://colorid.github.io/cloudcard-custom-assets/northwestern.css
-
-      
+https://colorid.github.io/cloudcard-custom-assets/FIT.css
 */
 
+
+
 html {
-  background: #4e2a84;
+  background: #770000;
 }
 
 .splash {
-  background-color: #4e2a84;
+  background-color: #770000;
 }
 
 .splash .loading path {
@@ -28,81 +23,68 @@ html {
 }
 
 header.header-main {
-  background-color: #4e2a84;
-	border-top: 4px solid #401f68;
+  background-color: #770000;
+	border-top: 5px solid #ab946c;
   height:10.5em;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg') top center no-repeat;
+  background: url('https://colorid.github.io/cloudcard-custom-assets/Flordia-TechPrimary_horiz_white-gold.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#e4e0ee;
+  background-color:#d5d0c9;
 }
 
 .header-page h1 {
-    color: #342f2e;
-    padding-right: 0.73684em;
-}
-
-.header-page .filters select {
-	    border: 1px solid #4e2a84;
-}
-
-.header-page .fa-search {
-	color: #4e2a84 !important;
-	
+  color:#342F2E;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#e4e0ee;
-  color: #342f2e;
+  border-bottom-color:#d5d0c9;
+  color: #342F2E;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #342f2e;
+  color: #222222;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #4e2a84;
+    border-bottom-color: #342F2E;
+	color: #770000;
 }
 
 .header-page .buttons button {
-  background-color: #4e2a84;
-  color: #fff;
-	border: 1px solid #401f68;
+  background-color: #770000;
+  color: #e3e3e3;
+	border: #770000;
 }
-.header-page .tabs a.active {
-color: #342f2e	
-}
+
 .header-page button {
-  background-color: #b6acd1;
-  color: #fff;
+  background-color: #990000;
+  color: #e3e3e3;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus 
-{
-  background-color: #D8D6D6;
-  color: #4e2a84;
-
+.header-page .buttons button:focus {
+  background-color: #990000;
+  color: #e3e3e3;
+}
   /* Alternative if the above doesn't look so great.
-  background-color: #b6acd1;
+  background-color: #d5d0c9;
   color: #fff;
    */
-}
 
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #4e2a84;
+    background-color: #770000;
     color: #fff;
 }
 
@@ -112,19 +94,19 @@ color: #342f2e
 }
 
 button {
-    background-color: #b6acd1;
+    background-color: #990000;
 }
 
 button:hover,
 button:focus {
-    background-color: #D8D6D6;
+    background-color: #770000;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #4e2a84;
+    background-color: #770000;
 }
 
 router-view .buttons button.primary:hover,
@@ -134,7 +116,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #401f68;
+    background-color: #890000;
 }
 
 .user-info {
@@ -142,7 +124,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #D8D6D6;
+    color: #d5d0c9;
 }
 
 .user-info a:hover,
@@ -161,11 +143,11 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #4e2a84; /*default #007bff*/
+    color: #770000; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #D8D6D6;
+    background: #d5d0c9;
     color: #353535;
 	font-weight: bold;
 	
@@ -173,57 +155,68 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #bbb8b8;
+    background: #e8e8e8;
 }
 
 table th {
 	
-	background: #401f68;
-		color: #ffffff
+	background: #770000;
+		color: #d5d0c9;
 }
 
 table td {
-    background: #f0f0f0;
+    background: #e8e8e8;
 }
 table a {
-    color: #4e2a84;
-    text-decoration: underline;
+    color: #342F2E;
+   
 }
 
-.header-page .filters .filter:after {
-	
-	Color: #4e2a84;
-}
+
+
 .footer {
-    background: #4e2a84;	
+    background: #770000;
+	border-bottom: 3px solid #
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #D8D6D6;
-    color: #836eaa;
-    border-right: 3px solid #4e2a84;
+    background: #d5d0c9;
+    color: #990000;
+    border-right: 3px solid #342F2E;
     height: 100% !important;
 
     &.nav-open {
-	background: #D8D6D6;
+	background: #d5d0c9;
     }
 	
 }
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #836eaa !important;
+    color: #990000 !important;
 }
 
 ul.photo-requirements {
 	
-	background-color:#D8D6D6;
+	background-color:#d5d0c9;
 }
 
+.header-page .filters select {
+	    border: 1px solid #990000;
+	color: #e3e3e3;
+	background-color: #770000;
+}
 
-
+.header-page .fa-search {
+	color: #770000 !important;
+	
+}
+photo-list-header.photo-list-columns {
+    background: #770000 !important ;
+    color: #ccc !important;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
