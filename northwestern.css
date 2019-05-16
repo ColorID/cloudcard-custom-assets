@@ -180,7 +180,7 @@ table th {
 	
 	background: #836EAA;
 		color: #ffffff;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 table td {
