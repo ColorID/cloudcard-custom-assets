@@ -205,7 +205,7 @@ table a {
 .sidebar-mobile {
     background: #D8D6D6;
     color: #401F68;
-    border-right: 3px solid #342F2E;
+    border-right: 3px solid #716C6B;
     height: 100% !important;
 
     &.nav-open {
