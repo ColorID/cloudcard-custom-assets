@@ -90,8 +90,8 @@ color: #342f2e
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #D8D6D6;
-  color: #4e2a84;
+  background-color: #401F68;
+  color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
   background-color: #b6acd1;
@@ -196,7 +196,8 @@ table a {
 	Color: #4e2a84;
 }
 .footer {
-    background: #401F68;	
+      background: #4E2A84;
+    border-bottom: 2px solid #716C6B;	
 }
 
 
