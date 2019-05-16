@@ -8,7 +8,7 @@ Lt. Purple - #B6ACD1
 {{Color_1_Shade}}: 401f68; (goto http://www.color-hex.com/color/4e2a84 ; use the second Shade -- just needs to be a little bit darker.)
 b6acd1: (don't include the '#')
 {{Color_2_Tint}}: #D8D6D6; (goto http://www.color-hex.com/color/b6acd1 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-//common.northwestern.edu/v8/css/images/northwestern.svg: //common.northwestern.edu/v8/css/images/northwestern.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg: https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 
 https://colorid.github.io/cloudcard-custom-assets/northwestern.css
 
@@ -34,7 +34,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//common.northwestern.edu/v8/css/images/northwestern.svg') top center no-repeat;
+  background: url('https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
