@@ -68,13 +68,13 @@ header.header-page {
 
 .header-page button {
 background-color: #5f0000;
-  color: ##D5CFC9;
+  color: #D5CFC9;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus {
   background-color: #5f0000;
-  color: ##D5CFC9;
+  color: #D5CFC9;
 }
   /* Alternative if the above doesn't look so great.
   background-color: #d5d0c9;
