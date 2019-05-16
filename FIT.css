@@ -67,14 +67,14 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #990000;
-  color: #e3e3e3;
+background-color: #5f0000;
+  color: ##D5CFC9;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus {
-  background-color: #990000;
-  color: #e3e3e3;
+  background-color: #5f0000;
+  color: ##D5CFC9;
 }
   /* Alternative if the above doesn't look so great.
   background-color: #d5d0c9;
@@ -162,6 +162,7 @@ table th {
 	
 	background: #770000;
 		color: #d5d0c9;
+	text-transform: uppercase;
 }
 
 table td {
