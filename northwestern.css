@@ -195,7 +195,7 @@ table a {
 	Color: #4e2a84;
 }
 .footer {
-    background: #4e2a84;	
+    background: #401F68;	
 }
 
 
@@ -203,7 +203,7 @@ table a {
 .sidebar-mobile {
     background: #D8D6D6;
     color: #401F68;
-    border-right: 3px solid #4e2a84;
+    border-right: 3px solid #342F2E;
     height: 100% !important;
 
     &.nav-open {
