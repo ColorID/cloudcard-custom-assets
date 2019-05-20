@@ -1,0 +1,241 @@
+/*
+
+Main purple- #47acad
+Darker Purple - #border: 2px solid #fff;
+Md puple - #836EAA
+Lt. Purple - #69cbcc
+47acad: (don't include the '#')
+{{Color_1_Shade}}: 1f8e8f; (goto http://www.color-hex.com/color/47acad ; use the second Shade -- just needs to be a little bit darker.)
+69cbcc: (don't include the '#')
+{{Color_2_Tint}}: #e3f1f1; (goto http://www.color-hex.com/color/69cbcc ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg: https://colorid.github.io/cloudcard-custom-assets/Northwestern_white_RGB.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+
+https://colorid.github.io/cloudcard-custom-assets/Tiny-ColorID-Logo.png
+
+      
+*/
+
+html {
+  background: #47acad;
+}
+
+.splash {
+  background-color: #47acad;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #47acad;
+	border-top: 10px solid #1f8e8f;
+  height:10.5em;
+}
+
+.logo {
+  background: url('https://colorid.github.io/cloudcard-custom-assets/Tiny-ColorID-Logo.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#e3f1f1;
+}
+
+.header-page h1 {
+    color: #575a5c;
+    padding-right: 0.73684em;
+}
+
+.header-page .filters select {
+	    border: 1px solid #47acad;
+}
+
+.header-page .fa-search {
+	color: #47acad !important;
+	
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#e3f1f1;
+  color: #575a5c;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #575a5c;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #47acad;
+}
+
+.header-page .buttons button {
+  background-color: #47acad;
+  color: #fff;
+	border: 1px solid #1f8e8f;
+}
+.header-page .tabs a.active {
+color: #575a5c	
+}
+.header-page button {
+  background-color: #69cbcc;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #1f8e8f;
+  color: #ffffff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #69cbcc;
+  color: #fff;
+   */
+}
+
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #47acad;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #69cbcc;
+}
+
+button:hover,
+button:focus {
+    background-color: #e3f1f1;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #47acad;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #1f8e8f;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #e3f1f1;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #47acad; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #e3f1f1;
+    color: #353535;
+	font-weight: bold;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #bbb8b8;
+}
+
+table th {
+	
+	background: #1f8e8f;
+		color: #ffffff;
+	text-transform: uppercase;
+}
+
+table td {
+    background: #f0f0f0;
+}
+table a {
+    color: #47acad;
+    text-decoration: underline;
+}
+
+.header-page .filters .filter:after {
+	
+	Color: #47acad;
+}
+.footer {
+      background: #47acad;
+    border-bottom: 2px solid #716C6B;	
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #e3f1f1;
+    color: #1f8e8f;
+    border-right: 3px solid #716C6B;
+    height: 100% !important;
+
+    &.nav-open {
+	background: #e3f1f1;
+    }
+	
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #1f8e8f !important;
+}
+
+ul.photo-requirements {
+	
+	background-color:#e3f1f1;
+}
+
+
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
