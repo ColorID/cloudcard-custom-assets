@@ -166,10 +166,10 @@ button.submit-login:focus
 }
 
 table th {
-	
-	background: #e3dccb;
-		color: #033c5a;
+	background: #AA9868;
+	color: #FFFFFF;
 	text-transform: uppercase;
+	BORDER-TOP: 1PX SOLID #FFF;
 }
 
 table td {
@@ -186,7 +186,7 @@ table a {
 }
 .footer {
       background: #033c5a;
-  	
+      BORDER-BOTTOM: 5PX SOLID #AA9868;
 }
 
 
