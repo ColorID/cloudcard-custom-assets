@@ -29,11 +29,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#033c5a;
+  background-color:#e3dccb;
 }
 
 .header-page h1 {
-    color: #aa9868;
+    color: #033c5a;
     padding-right: 0.73684em;
 }
 
@@ -47,19 +47,19 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#033c5a;
-  color: #aa9868;
+  border-bottom-color:#e3dccb;
+  color: #033c5a;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #f8e08e;
+  color: #0190db;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #e3dccb;;
+    border-bottom-color: #033c5a;;
 }
 
 .header-page .buttons button {
@@ -68,7 +68,7 @@ background-color: #033c5a;
 	border: 1px solid #aa9868;
 }
 .header-page .tabs a.active {
-color: #575a5c;	
+color: #0190db;	
 }
 .header-page button {
   background-color: #033c5a;
@@ -105,7 +105,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #0190d8;
+    background-color: #0190db;
 }
 
 router-view .buttons button.primary,
@@ -122,11 +122,11 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0190d8;
+    background-color: #0190db;
 }
 
 .user-info {
-    color: #ffffff;
+    color: #033c5a;
 }
 
 .user-info a {
@@ -139,13 +139,13 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #ffffff;
+    color: #0190d8;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #ffffff;
+    color: #0190d8;
 }
 
 .admin-links .fa {
