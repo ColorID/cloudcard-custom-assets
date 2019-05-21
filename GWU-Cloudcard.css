@@ -37,7 +37,7 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #004065;
+	    border: 1px solid #e3dccb;
 }
 
 .header-page .fa-search {
@@ -47,13 +47,13 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#0096d6;
-  color: #575a5c;
+  color: #ffeebb;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #575a5c;
+  color: #ffeebb;
 }
 
 /* Keep this block only if it looks good. */
@@ -67,10 +67,10 @@ header.header-page {
 	border: 1px solid #0096d6;
 }
 .header-page .tabs a.active {
-color: #575a5c	
+color: #575a5c;	
 }
 .header-page button {
-  background-color: #69cbcc;
+  background-color: #004065;
   color: #fffffe;
 }
 
@@ -99,7 +99,7 @@ color: #575a5c
 }
 
 button {
-    background-color: #69cbcc;
+    background-color: #004065;
 }
 
 button:hover,
@@ -138,7 +138,7 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #ddd;
+    color: #fffffe;
 }
 
 .open-nav:hover,
@@ -160,13 +160,14 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #bbb8b8;
+    background: #004065;
+    color: #ffeebb;
 }
 
 table th {
 	
-	background: #0096d6;
-		color: #fffffe;
+	background: #e3dccb;
+		color: #004065;
 	text-transform: uppercase;
 }
 
@@ -184,19 +185,19 @@ table a {
 }
 .footer {
       background: #004065;
-    border-bottom: 2px solid #716C6B;	
+    border-bottom: 2px solid #C8b18b;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #0096d6;
-    color: #0096d6;
-    border-right: 3px solid #716C6B;
+    background: #004065;
+    color: #fffffe;
+    border-right: 3px solid #fffffe;
     height: 100% !important;
 
     &.nav-open {
-	background: #0096d6;
+	background: #004065;
     }
 	
 }
