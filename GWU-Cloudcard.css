@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #aa9868;
+    color: #fff;
     padding-right: 0.73684em;
 }
 
@@ -153,10 +153,9 @@ button.submit-login:focus
 }
 
 .admin-links a {
-     background: #e3dccb;
-    color: #033c5a;
-	font-weight: bold;
-	
+     background: #fff;
+     color: #033c5a;
+     font-weight: bold;
 }
 
 .admin-links a:hover,
@@ -192,8 +191,8 @@ table a {
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #e3dccb;
-    color: #ffffff;
+     background: #ffffff;
+    color: #033c5a;
     border-right: 3px solid #033c5a;
     height: 100% !important;
 
