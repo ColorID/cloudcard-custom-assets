@@ -4,21 +4,21 @@ https://colorid.github.io/cloudcard-custom-assets/GWU-Cloudcard.css
 */
 
 html {
-  background: #004065;
+  background: #033c5a;
 }
 
 .splash {
-  background-color: #004065;
+  background-color: #033c5a;
 }
 
 .splash .loading path {
-  fill: #fffffe;
+  fill: #ffffff;
 }
 
 header.header-main {
-  background-color: #fffffe;
+  background-color: #ffffff;
   height:10.5em;
-	border-bottom: 4px solid #c8b18b;
+	border-bottom: 4px solid #aa9868;
 }
 
 .logo {
@@ -29,11 +29,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#004065;
+  background-color:#033c5a;
 }
 
 .header-page h1 {
-    color: #c8b18b;
+    color: #aa9868;
     padding-right: 0.73684em;
 }
 
@@ -42,19 +42,19 @@ header.header-page {
 }
 
 .header-page .fa-search {
-	color: #004065 !important;
+	color: #033c5a !important;
 	
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#004065;
-  color: #c8b18b;
+  border-bottom-color:#033c5a;
+  color: #aa9868;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #ffeebb;
+  color: #f8e08e;
 }
 
 /* Keep this block only if it looks good. */
@@ -63,23 +63,23 @@ header.header-page {
 }
 
 .header-page .buttons button {
-background-color: #004065;
-  color: #fffffe;
-	border: 1px solid #c8b18b;
+background-color: #033c5a;
+  color: #ffffff;
+	border: 1px solid #aa9868;
 }
 .header-page .tabs a.active {
 color: #575a5c;	
 }
 .header-page button {
-  background-color: #004065;
-  color: #fffffe;
+  background-color: #033c5a;
+  color: #ffffff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #0096d6;
-  color: #fffffe;
+  background-color: #0190d8;
+  color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
   background-color: #69cbcc;
@@ -90,29 +90,29 @@ color: #575a5c;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #004065;
-    color: #fffffe;
+    background-color: #033c5a;
+    color: #ffffff;
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fffffe;
+    color: #ffffff;
 }
 
 button {
-    background-color: #004065;
+    background-color: #033c5a;
 }
 
 button:hover,
 button:focus {
-    background-color: #0096d6;
+    background-color: #0190d8;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #004065;
+    background-color: #033c5a;
 }
 
 router-view .buttons button.primary:hover,
@@ -122,53 +122,53 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0096d6;
+    background-color: #0190d8;
 }
 
 .user-info {
-    color: #fffffe;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #0096d6;
+    color: #0190d8;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fffffe;
+    color: #ffffff;
 }
 
 .open-nav {
-    color: #fffffe;
+    color: #ffffff;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fffffe;
+    color: #ffffff;
 }
 
 .admin-links .fa {
-    color: #c8b18b; /*default #007bff*/
+    color: #aa9868; /*default #007bff*/
 }
 
 .admin-links a {
      background: #e3dccb;
-    color: #004065;
+    color: #033c5a;
 	font-weight: bold;
 	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #004065;
-    color: #ffeebb;
+    background: #033c5a;
+    color: #f8e08e;
 }
 
 table th {
 	
 	background: #e3dccb;
-		color: #004065;
+		color: #033c5a;
 	text-transform: uppercase;
 }
 
@@ -176,16 +176,16 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #004065;
+    color: #033c5a;
     text-decoration: underline;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #004065;
+	Color: #033c5a;
 }
 .footer {
-      background: #004065;
+      background: #033c5a;
   	
 }
 
@@ -193,19 +193,19 @@ table a {
 .sidebar-main,
 .sidebar-mobile {
      background: #e3dccb;
-    color: #fffffe;
-    border-right: 3px solid #004065;
+    color: #ffffff;
+    border-right: 3px solid #033c5a;
     height: 100% !important;
 
     &.nav-open {
-	background: #004065;
+	background: #033c5a;
     }
 	
 }
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #004065 !important;
+    color: #033c5a !important;
 }
 
 ul.photo-requirements {
