@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #fff;
+    color: #aa9868;
     padding-right: 0.73684em;
 }
 
@@ -153,15 +153,16 @@ button.submit-login:focus
 }
 
 .admin-links a {
-     background: #fff;
-     color: #033c5a;
-     font-weight: bold;
+     background: #033c5a;
+    color: #;ffffff;
+	font-weight: bold;
+	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
     background: #033c5a;
-    color: #f8e08e;
+    color: #aa9868;
 }
 
 table th {
@@ -191,8 +192,8 @@ table a {
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #ffffff;
-    color: #033c5a;
+     background: #033c5a;
+    color: #ffffff;
     border-right: 3px solid #033c5a;
     height: 100% !important;
 
@@ -209,7 +210,7 @@ table a {
 
 ul.photo-requirements {
 	
-	background-color:#e3dccb;
+	background-color:#033c5a;
 }
 
 
