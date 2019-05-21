@@ -28,11 +28,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#0096d6;
+  background-color:#004065;
 }
 
 .header-page h1 {
-    color: #004065;
+    color: #c8b18b;
     padding-right: 0.73684em;
 }
 
@@ -152,8 +152,8 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #004065;
-    color: #fffffe;
+     background: #e3dccb;
+    color: #004065;
 	font-weight: bold;
 	
 }
@@ -204,12 +204,12 @@ table a {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #1f8e8f !important;
+    color: #004065 !important;
 }
 
 ul.photo-requirements {
 	
-	background-color:#0096d6;
+	background-color:#e3dccb;
 }
 
 
