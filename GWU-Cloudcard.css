@@ -1,7 +1,6 @@
 /*
 
-https://colorid.github.io/cloudcard-custom-assets/gw_monogram_logo.png
-     
+https://colorid.github.io/cloudcard-custom-assets/GWU-Cloudcard.css
 */
 
 html {
@@ -29,7 +28,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#e3f1f1;
+  background-color:#0096d6;
 }
 
 .header-page h1 {
@@ -47,7 +46,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#e3f1f1;
+  border-bottom-color:#0096d6;
   color: #575a5c;
 }
 
@@ -105,7 +104,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #e3f1f1;
+    background-color: #0096d6;
 }
 
 router-view .buttons button.primary,
@@ -130,7 +129,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #e3f1f1;
+    color: #0096d6;
 }
 
 .user-info a:hover,
@@ -191,13 +190,13 @@ table a {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #e3f1f1;
+    background: #0096d6;
     color: #0096d6;
     border-right: 3px solid #716C6B;
     height: 100% !important;
 
     &.nav-open {
-	background: #e3f1f1;
+	background: #0096d6;
     }
 	
 }
@@ -209,7 +208,7 @@ table a {
 
 ul.photo-requirements {
 	
-	background-color:#e3f1f1;
+	background-color:#0096d6;
 }
 
 
