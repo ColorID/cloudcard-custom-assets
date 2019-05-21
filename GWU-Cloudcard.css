@@ -18,6 +18,7 @@ html {
 header.header-main {
   background-color: #fffffe;
   height:10.5em;
+	border-bottom: 4px solid #c8b18b;
 }
 
 .logo {
@@ -46,8 +47,8 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#0096d6;
-  color: #ffeebb;
+  border-bottom-color:#004065;
+  color: #c8b18b;
 }
 
 .header-page .tabs li a:hover,
@@ -58,13 +59,13 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #004065;
+    border-bottom-color: #e3dccb;;
 }
 
 .header-page .buttons button {
-  background-color: #004065;
+background-color: #004065;
   color: #fffffe;
-	border: 1px solid #0096d6;
+	border: 1px solid #c8b18b;
 }
 .header-page .tabs a.active {
 color: #575a5c;	
@@ -185,15 +186,15 @@ table a {
 }
 .footer {
       background: #004065;
-    border-bottom: 2px solid #C8b18b;	
+  	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #004065;
+     background: #e3dccb;
     color: #fffffe;
-    border-right: 3px solid #fffffe;
+    border-right: 3px solid #004065;
     height: 100% !important;
 
     &.nav-open {
