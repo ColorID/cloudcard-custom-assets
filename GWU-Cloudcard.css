@@ -179,11 +179,12 @@ button.submit-login:focus
 }
 
 table th {
-	background: #AA9868;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	BORDER-TOP: 1PX SOLID #FFF;
-	letter-spacing: 1px;
+   background: #0190db;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-top: 1px solid #033c5a;
+    letter-spacing: 1px;
 }
 
 table td {
@@ -200,6 +201,7 @@ photo-list-header.photo-list-columns {
     text-transform: uppercase;
     font-weight: 600;
     border-top: 1px solid #033c5a;
+    letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
@@ -227,7 +229,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #033c5a !important;
+    color: #ffffff !important;
 }
 
 ul.photo-requirements {
