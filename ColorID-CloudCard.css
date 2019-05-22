@@ -180,11 +180,12 @@ button.submit-login:focus
 }
 
 table th {
-	
-	background: #1f8e8f;
-		color: #ffffff;
-	text-transform: uppercase;
-	border-top: 1px solid #ffffff;
+	background: #575a5c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #47acad;
 }
 
 table td {
