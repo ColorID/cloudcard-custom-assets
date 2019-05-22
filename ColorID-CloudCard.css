@@ -195,6 +195,15 @@ table a {
     text-decoration: underline;
 }
 
+photo-list-header.photo-list-columns {
+    background: #575a5c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #47acad;
+}
+
 .header-page .filters .filter:after {
 	
 	Color: #47acad;
