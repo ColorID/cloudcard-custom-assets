@@ -50,7 +50,9 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #47acad;
+	    border: 1px solid #1f8e8f;
+	    color: #ffffff;
+	    background-color: #47acad;
 }
 
 .header-page .fa-search {
@@ -173,7 +175,8 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #bbb8b8;
+    background: #e3f1f1;
+    color: #47acad;
 }
 
 table th {
@@ -181,6 +184,7 @@ table th {
 	background: #1f8e8f;
 		color: #ffffff;
 	text-transform: uppercase;
+	border-top: 1px solid #ffffff;
 }
 
 table td {
