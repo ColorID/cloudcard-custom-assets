@@ -44,7 +44,9 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #e3dccb;
+	    border: 1px solid #033D5A;
+	    background-color: #e3dccb;
+	    color: #033D5A;
 }
 
 .header-page .fa-search {
