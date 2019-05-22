@@ -72,11 +72,7 @@ header.header-page {
     border-bottom-color: #033c5a;;
 }
 
-.header-page .buttons button {
-background-color: #033c5a;
-  color: #ffffff;
-	border: 1px solid #aa9868;
-}
+.header-page .buttons button {background-color: #033c5a;color: #ffffff;border: 1px solid #ffffff;}
 .header-page .tabs a.active {
 color: #0190db;	
 text-transform:uppercase;
