@@ -36,6 +36,11 @@ header.header-page {
 .header-page h1 {
     color: #033c5a;
     padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 32px;
+
 }
 
 .header-page .filters select {
@@ -50,6 +55,8 @@ header.header-page {
 .header-page .tabs li a {
   border-bottom-color:#e3dccb;
   color: #033c5a;
+  text-transform:uppercase;
+  letter-spacing: .5px;
 }
 
 .header-page .tabs li a:hover,
@@ -70,6 +77,9 @@ background-color: #033c5a;
 }
 .header-page .tabs a.active {
 color: #0190db;	
+text-transform:uppercase;
+letter-spacing: 1px;
+font-weight:600;
 }
 .header-page button {
   background-color: #033c5a;
@@ -155,8 +165,10 @@ button.submit-login:focus
 
 .admin-links a {
      background: #033c5a;
-    color: #;ffffff;
-	font-weight: bold;
+    color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	
 }
 
@@ -171,6 +183,7 @@ table th {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	BORDER-TOP: 1PX SOLID #FFF;
+	letter-spacing: 1px;
 }
 
 table td {
