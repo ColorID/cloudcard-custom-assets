@@ -181,6 +181,14 @@ table a {
     text-decoration: underline;
 }
 
+photo-list-header.photo-list-columns {
+    background: #0190db;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: 1px solid #033c5a;
+}
+
 .header-page .filters .filter:after {
 	
 	Color: #033c5a;
