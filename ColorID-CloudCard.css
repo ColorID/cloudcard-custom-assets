@@ -57,6 +57,7 @@ header.header-page {
 	    border: 1px solid #1f8e8f;
 	    color: #ffffff;
 	    background-color: #47acad;
+	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
