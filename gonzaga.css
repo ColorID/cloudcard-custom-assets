@@ -183,9 +183,20 @@ ul.photo-requirements {
 	border-right: 3px solid #06274f;
 	margin-right: -2.5px;
 
+}
+.hide-on-mobile-small {
+  display: none;
+}
+
+.hide-on-mobile-small {
+  display: none;
+}
+
 #email-templates-link {
 	display: unset !important;
 }
+
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
