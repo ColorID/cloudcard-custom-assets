@@ -253,7 +253,12 @@ ul.photo-requirements {
 	background-color:#e3f1f1;
 }
 
-
+ .hide-on-mobile-small {
+  display: none;
+}
+.hide-on-mobile-small {
+  display: none;
+}
 
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
