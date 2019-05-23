@@ -181,6 +181,7 @@ table td {
 ul.photo-requirements {
 	
 	background-color:#cccccc;
+	border-right: 3px solid #06274f;
 }
 
 #email-templates-link {
