@@ -196,6 +196,11 @@ ul.photo-requirements {
 	display: unset !important;
 }
 
+.photo-requirements i {
+
+	display: none;
+
+}
 
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
