@@ -166,6 +166,8 @@ table td {
     color: #1a4980;
     border-right: 3px solid #06274f;
     height: 100% !important;
+    font-size: 12px; 
+   
 
     &.nav-open {
     background: #cccccc;
