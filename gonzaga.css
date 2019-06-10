@@ -186,11 +186,12 @@ ul.photo-requirements {
 	margin-right: -2.5px;
 
 }
-.hide-on-mobile-small {
+
+footer > .hide-on-mobile-small {
   display: none;
 }
 
-.hide-on-mobile-small {
+footer > span > .hide-on-mobile-small {
   display: none;
 }
 
