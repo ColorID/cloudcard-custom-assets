@@ -17,6 +17,7 @@ html {
 header.header-main {
   background-color: #ffffff;
 	border-top: 10px solid #ba0c2f;
+	border-bottom: 2px solid #a7a8aa;
   height:10.5em;
 }
 
@@ -191,7 +192,7 @@ table th {
 }
 
 table td {
-    background: #ffffff;
+    background: #a7a8aa;
 }
 table a {
     color: #ba0c2f;
