@@ -233,10 +233,9 @@ photo-list-header.photo-list-columns {
     border-right: 1px solid #63666a;
     height: 100% !important;
 
-    &.nav-open {
-	background: #f2f2f2;
+   &.nav-open {
+    background: #f2f2f2;
     }
-	
 }
 
 .sidebar-main h2,
