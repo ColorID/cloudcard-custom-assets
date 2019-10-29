@@ -41,6 +41,9 @@ header.header-page {
     font-weight: 400;
 }
 
+empty-queue-message {
+    background: #ffffff;
+}
 .header-page .filters select {
 	    border: 1px solid #ba0c2f;
 	    color: #ffffff;
