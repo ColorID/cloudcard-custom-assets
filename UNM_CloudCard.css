@@ -83,7 +83,7 @@ text-transform: uppercase;
 letter-spacing: 1px;	
 }
 .header-page button {
-  background-color: #69cbcc;
+  background-color: #c05131;
   color: #fff;
 }
 
@@ -94,7 +94,7 @@ letter-spacing: 1px;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #69cbcc;
+  background-color: #c05131;
   color: #fff;
    */
 }
@@ -119,7 +119,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #69cbcc;
+    background-color: #c05131;
 }
 
 router-view .buttons button.primary,
@@ -140,7 +140,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #ba0c2f;
 }
 
 .user-info a {
@@ -149,7 +149,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff;
+    color: #ba0c2f;
 }
 
 .open-nav {
@@ -191,7 +191,7 @@ table th {
 }
 
 table td {
-    background: #f0f0f0;
+    background: #ffffff;
 }
 table a {
     color: #ba0c2f;
@@ -226,7 +226,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #a7a8aa;
     color: #63666a;
-    border-right: 2px solid #575a7c;
+    border-right: 2px solid #63666a;
     height: 100% !important;
 
     &.nav-open {
@@ -353,7 +353,7 @@ text-transform: uppercase;
 letter-spacing: 1px;	
 }
 .header-page button {
-  background-color: #69cbcc;
+  background-color: #c05131;
   color: #fff;
 }
 
@@ -364,7 +364,7 @@ letter-spacing: 1px;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #69cbcc;
+  background-color: #c05131;
   color: #fff;
    */
 }
@@ -389,7 +389,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #69cbcc;
+    background-color: #c05131;
 }
 
 router-view .buttons button.primary,
@@ -496,7 +496,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #a7a8aa;
     color: #63666a;
-    border-right: 2px solid #575a7c;
+    border-right: 2px solid #63666a;
     height: 100% !important;
 
     &.nav-open {
