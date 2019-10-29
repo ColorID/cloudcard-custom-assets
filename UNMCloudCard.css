@@ -45,9 +45,9 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #ba0c2f;
-	    color: #ffffff;
-	    background-color: #ba0c2f;
+	    border: 1px solid #63666a;
+	    color: #63666a;
+	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
@@ -144,7 +144,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #a7a8aa;
+    color: #63666a;
 }
 
 .user-info a {
@@ -153,7 +153,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #a7a8aa;
+    color: #63666a;
 }
 
 .open-nav {
