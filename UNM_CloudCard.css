@@ -28,7 +28,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#a7a8aa;
+  background-color:#f5f5f5;
 }
 
 .header-page h1 {
@@ -53,7 +53,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#a7a8aa;
+  border-bottom-color:#f5f5f5;
   color: #63666a;
 font-weight: 600;
 text-transform: uppercase;
@@ -167,7 +167,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #63666a;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
@@ -177,7 +177,7 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #ba0c2f;
 }
 
@@ -224,13 +224,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #63666a;
     border-right: 2px solid #63666a;
     height: 100% !important;
 
     &.nav-open {
-	background: #a7a8aa;
+	background: #f5f5f5;
     }
 	
 }
@@ -244,7 +244,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#a7a8aa;
+	background-color:#f5f5f5;
 }
 
  .hide-on-mobile-small {
@@ -298,7 +298,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#a7a8aa;
+  background-color:#f5f5f5;
 }
 
 .header-page h1 {
@@ -323,7 +323,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#a7a8aa;
+  border-bottom-color:#f5f5f5;
   color: #63666a;
 font-weight: 600;
 text-transform: uppercase;
@@ -437,7 +437,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #63666a;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
@@ -447,7 +447,7 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #ba0c2f;
 }
 
@@ -494,13 +494,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #a7a8aa;
+    background: #f5f5f5;
     color: #63666a;
     border-right: 2px solid #63666a;
     height: 100% !important;
 
     &.nav-open {
-	background: #a7a8aa;
+	background: #f5f5f5;
     }
 	
 }
@@ -514,7 +514,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#a7a8aa;
+	background-color:#f5f5f5;
 }
 
  .hide-on-mobile-small {
