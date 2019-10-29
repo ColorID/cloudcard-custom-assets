@@ -141,16 +141,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #ba0c2f;
+    color: #a7a8aa;
 }
 
 .user-info a {
-    color: #d6a461;
+    color: #a7a8aa;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #ba0c2f;
+    color: #a7a8aa;
 }
 
 .open-nav {
@@ -192,7 +192,7 @@ table th {
 }
 
 table td {
-    background: #a7a8aa;
+    background: #f2f2f2;
 }
 table a {
     color: #ba0c2f;
@@ -210,7 +210,7 @@ photo-list-header.photo-list-columns {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #ba0c2f;
+    border-top: 1px solid #a7a8aa;
 }
 
 .header-page .filters .filter:after {
