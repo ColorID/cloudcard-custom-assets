@@ -410,16 +410,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #ba0c2f;
 }
 
 .user-info a {
-    color: #d6a461;
+    color: #ba0c2f;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff;
+    color: #ba0c2f;
 }
 
 .open-nav {
