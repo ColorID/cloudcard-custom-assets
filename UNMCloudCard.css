@@ -106,8 +106,8 @@ letter-spacing: 1px;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #ba0c2f;
-    color: #fff;
+    background-color: transparent;
+    color: #63666a;
 }
 
 .header-page .filters .filter:hover:after,
