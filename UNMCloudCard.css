@@ -218,11 +218,11 @@ photo-list-header.photo-list-columns {
 
 .header-page .filters .filter:after {
 	
-	Color: #ba0c2f;
+	Color: #63666a;
 }
 .footer {
       background: #ba0c2f;
-    border-bottom: 2px solid #63666a;	
+    border-top: 2px solid #a7a8aa;	
 }
 
 
