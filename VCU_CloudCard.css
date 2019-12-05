@@ -16,7 +16,7 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-bottom: 2px solid #e1e1e0;
+	
   height:10.5em;
 }
 
@@ -36,7 +36,7 @@ header.header-page {
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
-    letter-spacing: 2px;
+    letter-spacing: .5px;
     font-weight: 400;
 }
 
@@ -205,11 +205,11 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #000;
-    color: #f8b300;
+    background: #fff;
+    color: #000;
     font-weight: 600;
-    letter-spacing: 1px;
-    border-top: 1px solid #333;
+    letter-spacing: .5px;
+    border-bottom: 2px solid #e6e6e6;
 }
 
 .header-page .filters .filter:after {
