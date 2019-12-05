@@ -234,23 +234,25 @@ photo-list-header.photo-list-columns {
     }
 
 
-.sidebar-main h2,
+.sidebar-main
+    h2,
 .sidebar-mobile h2 {
-    color: #333333 !important;
+    color: #e6e6e6 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
 
-ul.photo-requirements {
+
+    ul.photo-requirements {
 	
-	background-color:#f2f2f2;
+	background-color:#e6e6e6;
 }
 
  .hide-on-mobile-small {
-  display: none;
+    display: none;
 }
 .hide-on-mobile-small {
-  display: none;
+    display: none;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -266,4 +268,3 @@ button.download_button {
 	display: none;
 }
 */
-
