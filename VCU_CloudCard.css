@@ -44,7 +44,7 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #555555;
+	    border: 1px solid #333333;
 	    color: #000;
 	    background-color: transparent;
 	    text-transform:uppercase;
@@ -91,7 +91,7 @@ letter-spacing: .5px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #f8b300;
+  background-color: #000;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -104,7 +104,7 @@ letter-spacing: .5px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #555555;
+    color: #333333;
 }
 
 .header-page .filters .filter:hover:after,
@@ -164,12 +164,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #555555; /*default #007bff*/
+    color: #f8b300; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #f2f2f2;
-    color: #555555;
+    background: #333333;
+    color: #f8b300;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -178,13 +178,13 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #f2f2f2;
+    background: #000;
     color: #f8b300;
 }
 
 table th {
-	background: #ffffff;
-    color: #000000;
+	background: #000;
+    color: #f8b300;
   
     font-weight: 600;
     letter-spacing: .75px;
@@ -200,7 +200,7 @@ table a {
 }
 
 table a:hover {
-    color: #555555;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -224,9 +224,9 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f2f2f2;
-    color: #555555;
-    border-right: 1px solid #555555;
+    background: #333;
+    color: #f8b300;
+    border-right: 1px solid #fff;
     height: 100% !important;
 
    &.nav-open {
@@ -236,7 +236,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #555555 !important;
+    color: #333333 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
