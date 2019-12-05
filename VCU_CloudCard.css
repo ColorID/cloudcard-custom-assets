@@ -70,7 +70,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #a7a8aa;
+    border-bottom-color: #333;
 }
 
 .header-page .buttons button {
@@ -164,21 +164,21 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #f8b300; /*default #007bff*/
+    color: #333; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #333333;
-    color: #f8b300;
+    background: #e6e6e6;
+    color: #000;
 	text-transform:uppercase;
-	letter-spacing: 1px; 
+	letter-spacing: .5px; 
 	font-weight: 500;
 	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #000;
+    background: #e6e6e6;
     color: #f8b300;
 }
 
@@ -224,8 +224,8 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #333;
-    color: #f8b300;
+    background: #e6e6e6;
+    color: #000000;
     border-right: 1px solid #fff;
     height: 100% !important;
 
