@@ -209,12 +209,12 @@ table td {
     background: #f2f2f2;
 }
 table a {
-    color: #f8b300;
+    color: #000000;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #000000;
+    color: #333333;
     text-decoration: none;
 }
 
