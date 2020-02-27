@@ -33,7 +33,7 @@ header.header-page {
 }
 
 a {
-    color: #333333;
+    color: #2C2A29;
   
  
 }
@@ -89,7 +89,7 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #333F48;
+  background-color: #002855;
   color: #fff;
   border: 1px solid #333F48;
 }
@@ -102,7 +102,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #002855;
+  background-color: #333F48;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
@@ -205,7 +205,7 @@ table td {
     background: #f2f2f2;
 }
 table a {
-    color: #e6e6e6;
+    color: #2C2A29;
     text-decoration: underline;
 }
 
@@ -227,8 +227,8 @@ photo-list-header.photo-list-columns {
 	Color: #2C2A29;
 }
 .footer {
-      background: #2C2A29;
-    border-top: 2px solid #333333;	
+      background: #333F48;
+    border-top: 2px solid #BFB8AF;	
 }
 
 
@@ -236,7 +236,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #d8d8d7;
     color: #fff;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #FFF;
     height: 100% !important;
 }
    .nav-open {
