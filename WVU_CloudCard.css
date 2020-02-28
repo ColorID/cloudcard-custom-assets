@@ -1,5 +1,5 @@
 /*
-https://colorid.github.io/cloudcard-custom-assets/vcu_cloudcard.css      
+https://colorid.github.io/cloudcard-custom-assets/wvu_cloudcard.css      
 */
 
 html {
@@ -67,7 +67,9 @@ empty-queue-message {
 .header-page .fa-search {
 	color: #EAAA00 !important;
 	
+	
 }
+
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
@@ -124,7 +126,7 @@ empty-queue-message {
 
 button {
     background-color: #EAAA00;
-    border: 2px solid #fff;
+    border: 2px solid #BFB8AF;
 }
 
 
@@ -197,7 +199,7 @@ table th {
   
     font-weight: 600;
     letter-spacing: .75px;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 1px solid #BFB8AF;
 }
 
 table td {
@@ -218,7 +220,7 @@ photo-list-header.photo-list-columns {
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
-    border-bottom: .5px solid #e6e6e6;
+    border-bottom: 1px solid #BFB8AF;
 }
 
 .header-page .filters .filter:after {
@@ -227,7 +229,7 @@ photo-list-header.photo-list-columns {
 }
 .footer {
       background: #333F48;
-    border-top: 2px solid #BFB8AF;	
+    border-top: 1px solid #BFB8AF;	
 }
 
 
@@ -235,11 +237,11 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #d8d8d7;
     color: #2C2A29;
-    border-right: 1px solid #FFF;
+    border-right: 2px solid #BFB8AF;
     height: 100% !important;
 }
    .nav-open {
-    background: #e6e6e6;
+    background: #d8d8d7;
     }
 
 
