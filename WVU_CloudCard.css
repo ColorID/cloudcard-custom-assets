@@ -140,6 +140,7 @@ router-view .buttons button.primary,
 button.submit-login
 {
     background-color: #EAAA00;
+    color: #002855;
 }
 
 router-view .buttons button.primary:hover,
@@ -150,6 +151,7 @@ button.submit-login:hover,
 button.submit-login:focus
 {
     background-color: #EAAA00;
+    color: #002855;
 }
 
 .user-info {
@@ -279,3 +281,7 @@ button.download_button {
 	display: none;
 }
 */
+
+
+
+
