@@ -260,6 +260,22 @@ photo-list-header.photo-list-columns {
 	
 	background-color: #D8D8D7;
 }
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #13c545 !important;
+    color: #2c2a29;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #BE3A34;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #EAAA00;
+    color: #002855;
 /*
  .hide-on-mobile-small {
     display: none;
