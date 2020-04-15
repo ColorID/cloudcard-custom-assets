@@ -283,8 +283,8 @@ photo-list-header.photo-list-columns {
     color: #002855;
 }
 .current-photo--status.pending.unclassified{
-    background-color: #6E6269;
-    color: #fff;
+    background-color: #FFA305;
+    color: #2C2A29;
 }
 router-view .buttons button {
     background-color: #6E6269;
