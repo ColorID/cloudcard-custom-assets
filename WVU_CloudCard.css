@@ -129,6 +129,11 @@ button {
     border: 2px solid #BFB8AF;
 }
 
+.edit-button {
+    background-color: #6E6269;
+   
+   
+}
 
 button:hover,
 button:focus {
