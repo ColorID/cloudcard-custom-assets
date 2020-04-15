@@ -281,6 +281,12 @@ photo-list-header.photo-list-columns {
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
           background-color: #EAAA00;
     color: #002855;
+}
+
+router-view .buttons button {
+    background: #6E6269;
+    color: #fff;
+}
 /*
  .hide-on-mobile-small {
     display: none;
