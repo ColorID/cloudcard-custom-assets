@@ -130,7 +130,7 @@ button {
 }
 
 .edit-button {
-    background-color: #6E6269;
+    background-color: #6E6269 !important;
    
    
 }
