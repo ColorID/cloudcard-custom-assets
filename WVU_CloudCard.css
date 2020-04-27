@@ -14,6 +14,26 @@ html {
   fill: #fff;
 }
 
+.header-page .filters select {  
+	    color: #fff;
+	    background-color: #002855;
+	    
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #002855;
+    color: #fff;
+   
+}
+
+
+.header-page .filters .filter--input input {
+    
+    border: 2px solid #002855;
+    color: #002855
+}
+
 header.header-main {
   background-color: #002855;
 	
@@ -57,12 +77,7 @@ a:hover {
 empty-queue-message {
     background: #ffffff;
 }
-.header-page .filters select {
-	    border: 1px solid #333F48;
-	    color: #2C2A29;
-	    background-color: transparent;
-	    text-transform:uppercase;
-}
+
 
 .header-page .fa-search {
 	color: #EAAA00 !important;
@@ -113,11 +128,6 @@ empty-queue-message {
 }
 
 
-.header-page .filters .filter:hover select,
-.header-page .filters .filter:focus-within select {
-    background-color: transparent;
-    color: #333333;
-}
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
