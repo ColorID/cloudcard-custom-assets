@@ -34,6 +34,10 @@ html {
     color: #002855
 }
 
+.header-page input{
+	border: 1.5px solid #002855
+}
+
 header.header-main {
   background-color: #002855;
 	
