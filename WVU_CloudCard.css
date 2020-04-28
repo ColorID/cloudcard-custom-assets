@@ -44,7 +44,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     color: #2C2A29;
     box-shadow: none;
 }
-
+.header-page .filters .filter:after {
+    color: #EAAA00;
+}
 header.header-main {
   background-color: #002855;
 	
@@ -251,10 +253,7 @@ photo-list-header.photo-list-columns {
     border-bottom: 1px solid #BFB8AF;
 }
 
-.header-page .filters .filter:after {
-	
-	Color: #2C2A29;
-}
+
 .footer {
       background: #333F48;
     border-top: 1px solid #BFB8AF;	
