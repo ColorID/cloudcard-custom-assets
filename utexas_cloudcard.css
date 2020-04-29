@@ -1,0 +1,337 @@
+/*
+https://colorid.github.io/cloudcard-custom-assets/utexas_cloudcard.css      
+*/
+
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #ffffff;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+.header-page .filters select {  
+	    color: #fff;
+	    background-color: #bf5700;
+	    
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #bf5700;
+    color: #fff;
+   
+}
+
+
+.header-page .filters .filter--input input {
+    
+    border: 2px solid #bf5700;
+    color: #bf5700
+}
+
+.header-page input{
+	border: 1.5px solid #000;
+	color: #2C2A29;
+}
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+    border: 1.5px solid #A2AAAD;
+    color: #2C2A29;
+    box-shadow: none;
+}
+.header-page .filters .filter:after {
+    color: #EAAA00;
+}
+header.header-main {
+  background-color: #bf5700;
+	
+  height:10.25em;
+}
+
+.logo {
+  background: url('https://colorid.github.io/cloudcard-custom-assets/uTexas_primary.png') top center no-repeat;
+  display: inline-block;
+  width: 225px;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#fff;
+}
+
+a {
+    color: #2C2A29;
+  
+ 
+}
+
+a:hover {
+    color: #2C2A29;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #e8e8e8;
+}
+
+.header-page h1 {
+    color: #2C2A29;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+
+
+.header-page .fa-search {
+	color: #EAAA00 !important;
+	
+	
+}
+
+
+.header-page .tabs li a {
+  border-bottom-color: transparent;
+  color: #2C2A29;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #2C2A29;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #EAAA00;
+}
+
+.header-page .buttons button {
+  background-color: #bf5700;
+  color: #fff;
+  border: 1px solid #000;
+}
+.header-page .tabs a.active {color: #000;font-weight: 600;letter-spacing: .5px;}
+.header-page button {
+  background-color: #2C2A29;
+  color: #2C2A29;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #000;
+  color: #fff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+}
+
+
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #EAAA00;
+    border: 2px solid #BFB8AF;
+}
+
+.edit-button {
+    background-color: #6E6269 !important;
+   
+   
+}
+
+button:hover,
+button:focus {
+    background-color: #2C2A29;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #EAAA00;
+    color: #bf5700;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #EAAA00;
+    color: #bf5700;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #EAAA00;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #EAAA00; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #d8d8d7;
+    color: #2C2A29;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #d8d8d7;
+    color: #bf5700;
+}
+
+table th {
+	background: #000;
+    color: #fff;
+  
+    font-weight: 600;
+    letter-spacing: .75px;
+    border-bottom: 1px solid #BFB8AF;
+}
+
+table td {
+    background: #f2f2f2;
+}
+table a {
+    color: #2C2A29;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-bottom: 1px solid #BFB8AF;
+}
+
+
+.footer {
+      background: #000;
+    border-top: 1px solid #BFB8AF;	
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #d8d8d7;
+    color: #2C2A29;
+    border-right: 2px solid #BFB8AF;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #d8d8d7;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #2C2A29 !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+	
+	background-color: #D8D8D7;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #13c545 !important;
+    color: #2c2a29;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #BE3A34;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #EAAA00 !important;
+    color: #bf5700;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #FFA305;
+    color: #2C2A29;
+}
+router-view .buttons button {
+    background-color: #6E6269;
+    color: #fff;
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
+
+
+
+
