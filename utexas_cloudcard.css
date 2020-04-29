@@ -168,7 +168,7 @@ router-view .buttons button.primary,
 button.submit-login
 {
     background-color: #bf5700;
-    color: #bf5700;
+    color: #fff;
 }
 
 router-view .buttons button.primary:hover,
