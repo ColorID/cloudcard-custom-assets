@@ -35,8 +35,8 @@ html {
 }
 
 .header-page input{
-	border: 1.5px solid #000;
-	color: #2C2A29;
+	border: 1.5px solid #333f48;
+	color: #333f48;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
@@ -45,11 +45,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     box-shadow: none;
 }
 .header-page .filters .filter:after {
-    color: #EAAA00;
+    color: #bf5700;
 }
 header.header-main {
-  background-color: #bf5700;
-	
+  background-color: #FFF;
   height:10.25em;
 }
 
@@ -61,7 +60,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#fff;
+  background-color:#bf5700;
 }
 
 a {
@@ -79,7 +78,7 @@ a:hover {
 }
 
 .header-page h1 {
-    color: #2C2A29;
+    color: #fff;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -93,7 +92,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #EAAA00 !important;
+	color: #bf5700 !important;
 	
 	
 }
@@ -114,15 +113,15 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #EAAA00;
+    border-bottom-color: #bf5700;
 }
 
 .header-page .buttons button {
   background-color: #bf5700;
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #333f48;
 }
-.header-page .tabs a.active {color: #000;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #333f48;font-weight: 600;letter-spacing: .5px;}
 .header-page button {
   background-color: #2C2A29;
   color: #2C2A29;
@@ -131,7 +130,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #000;
+  background-color: #333f48;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
@@ -148,7 +147,7 @@ empty-queue-message {
 }
 
 button {
-    background-color: #EAAA00;
+    background-color: #bf5700;
     border: 2px solid #BFB8AF;
 }
 
@@ -167,7 +166,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #EAAA00;
+    background-color: #bf5700;
     color: #bf5700;
 }
 
@@ -178,7 +177,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #EAAA00;
+    background-color: #bf5700;
     color: #bf5700;
 }
 
@@ -187,7 +186,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #EAAA00;
+    color: #bf5700;
 }
 
 .user-info a:hover,
@@ -206,7 +205,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #EAAA00; /*default #007bff*/
+    color: #bf5700; /*default #007bff*/
 }
 
 .admin-links a {
@@ -224,7 +223,7 @@ button.submit-login:focus
 }
 
 table th {
-	background: #000;
+	background: #333f48;
     color: #fff;
   
     font-weight: 600;
@@ -246,7 +245,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #000;
+    background: #333f48;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -255,7 +254,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #000;
+      background: #333f48;
     border-top: 1px solid #BFB8AF;	
 }
 
@@ -299,7 +298,7 @@ photo-list-header.photo-list-columns {
 }
 
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
-          background-color: #EAAA00 !important;
+          background-color: #bf5700 !important;
     color: #bf5700;
 }
 .current-photo--status.pending.unclassified{
