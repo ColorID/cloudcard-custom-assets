@@ -60,7 +60,8 @@ header.header-main {
 }
 
 header.header-page {
-  background-color: #f8f8f8;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e6e4dc;
 }
 
 a {
@@ -78,7 +79,7 @@ a:hover {
 }
 
 .header-page h1 {
-    color: #2d2a28;
+    color: #333f48;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -100,7 +101,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #282828;
+  color: #333f48;
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -118,10 +119,10 @@ empty-queue-message {
 
 .header-page .buttons button {
   background-color: #fff;
-  color: #2d2a28;
-  border: 2px solid #ebe8e2;
+  color: #333f48;
+  border: 2px solid #e6e4dc;
 }
-.header-page .tabs a.active {color: #2d2a28;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #bf5700;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #333f48;
@@ -149,7 +150,7 @@ empty-queue-message {
 
 button {
     background-color: #bf5700;
-    border: 2px solid #BFB8AF;
+    border: 2px solid #e6e4dc;
 }
 
 .edit-button {
@@ -211,7 +212,7 @@ button.submit-login:focus
 
 .admin-links a {
     background: #fff;
-    color: #2C2A29;
+    color: #333f48;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 600;
@@ -228,7 +229,7 @@ table th {
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
-	border-bottom: 1px solid #BFB8AF;
+	border-bottom: 1px solid #e6e4dc;
 }
 
 table td {
@@ -249,13 +250,13 @@ photo-list-header.photo-list-columns {
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
-    border-bottom: 1px solid #BFB8AF;
+    border-bottom: 1px solid #e6e4dc;
 }
 
 
 .footer {
       background: #bf5700;
-      border-top: 1px solid #BFB8AF;
+      border-top: 1px solid #e6e4dc;
 }
 
 
@@ -263,7 +264,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #fff;
     color: #2C2A29;
-    border-right: 2px solid #BFB8AF;
+    border-right: 2px solid #e6e4dc;
     height: 100% !important;
 }
    .nav-open {
