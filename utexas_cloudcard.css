@@ -171,6 +171,7 @@ button.submit-login
     color: #fff;
 }
 
+
 router-view .buttons button.primary:hover,
 router-view .buttons button.primary:focus,
 #accept-terms:hover,
@@ -179,7 +180,7 @@ button.submit-login:hover,
 button.submit-login:focus
 {
     background-color: #bf5700;
-    color: #bf5700;
+    color: #fff;
 }
 
 .user-info {
