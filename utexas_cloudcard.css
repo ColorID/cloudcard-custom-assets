@@ -40,7 +40,7 @@ html {
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
     border: 1.5px solid #A2AAAD;
-    color: #2C2A29;
+    color: #1f262b;
     box-shadow: none;
 }
 .header-page .filters .filter:after {
@@ -64,19 +64,21 @@ header.header-page {
 }
 
 a {
-    color: #2C2A29;
+    color: #1f262b;
   
  
 }
 
 a:hover {
-    color: #2C2A29;
+    color: #1f262b;
 }
 
 .photo-rows-container photo-row:nth-child(even) {
     background: #e8e8e8;
 }
-
+.photo-requirements li i {
+    color: #BF5700;	
+}
 .header-page h1 {
     color: #333f48;
     padding-right: 0.73684em;
@@ -133,11 +135,15 @@ empty-queue-message {
 {
   background-color: #bf5700;
   color: #fff;
-
+}
   /* Alternative if the above doesn't look so great.
   background-color: #c05131;
   color: #fff;
    */
+.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
+    background: #f8971f;
+    border-color: #f8971f;
+    color: #fff;
 }
 
 
@@ -160,7 +166,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #2C2A29;
+    background-color: #1f262b;
 }
 
 router-view .buttons button.primary,
@@ -236,7 +242,7 @@ table td {
     background: #f8f8f8;
 }
 table a {
-    color: #2C2A29;
+    color: #1f262b;
     text-decoration: underline;
 }
 
@@ -263,7 +269,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #fff;
-    color: #2C2A29;
+    color: #1f262b;
     border-right: 2px solid #e6e4dc;
     height: 100% !important;
 }
@@ -275,7 +281,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #2C2A29 !important;
+    color: #1f262b !important;
 
     font-weight: 500;
 }
@@ -288,8 +294,8 @@ photo-list-header.photo-list-columns {
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #13c545 !important;
-    color: #2c2a29;
+    background-color: #579d42 !important;
+    color: #fff;
 
 }
 
@@ -299,15 +305,15 @@ photo-list-header.photo-list-columns {
 }
 
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
-          background-color: #bf5700 !important;
-    color: #bf5700;
+          background-color: #f8971f !important;
+    color: #1f262b;
 }
 .current-photo--status.pending.unclassified{
-    background-color: #FFA305;
-    color: #2C2A29;
+    background-color: #ffd600;
+    color: #1f262b;
 }
 router-view .buttons button {
-    background-color: #6E6269;
+    background-color: #333f48;
     color: #fff;
 }
 /*
