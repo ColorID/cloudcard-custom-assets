@@ -32,7 +32,7 @@ html {
 
 .header-page .filters .filter--input input {
     border: 2px solid #0065bd;
-    color: #333f48;
+    color: #4b4b4b;
 }
 
 .header-page input{
@@ -61,8 +61,8 @@ header.header-main {
 }
 
 header.header-page {
-  background-color: #f9fafb;
-  border-bottom: 1px solid #e6e4dc;
+  background-color: #fff;
+  
 }
 
 a {
