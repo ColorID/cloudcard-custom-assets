@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+/*
+https://colorid.github.io/cloudcard-custom-assets/utexas_cloudcard.css      
+*/
+
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #ffffff;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+.header-page .filters select {  
+	    color: #fff;
+	    background-color: #0065bd;
+	    
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #0065bd;
+    color: #fff;
+   
+}
+
+
+.header-page .filters .filter--input input {
+    border: 2px solid #0065bd;
+    color: #333f48;
+}
+
+.header-page input{
+	border: 1.5px solid #333f48;
+	color: #333f48;
+}
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+    border: 1.5px solid #A2AAAD;
+    color: #1f262b;
+    box-shadow: none;
+}
+.header-page .filters .filter:after {
+    color: #0065bd;
+}
+header.header-main {
+  background-color: #0065bd;
+  height:10.25em;
+}
+
+.logo {
+  background: url('https://colorid.github.io/cloudcard-custom-assets/csusb_logo_main_w.png') top center no-repeat;
+  display: inline-block;
+  width: 225px;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e6e4dc;
+}
+
+a {
+    color: #1f262b;
+  
+ 
+}
+
+a:hover {
+    color: #1f262b;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #e8e8e8;
+}
+.photo-requirements li i {
+    color: #0065bd;	
+}
+.header-page h1 {
+    color: #333f48;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+
+
+.header-page .fa-search {
+	color: #0065bd !important;
+	
+	
+}
+
+
+.header-page .tabs li a {
+  border-bottom-color: transparent;
+  color: #333f48;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #0065bd;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #e6e4dc;
+}
+
+.header-page .buttons button {
+  background-color: #fff;
+  color: #333f48;
+  border: 2px solid #e6e4dc;
+}
+.header-page .tabs a.active {color: #0065bd;font-weight: 600;letter-spacing: .5px;}
+
+.header-page button {
+  background-color: #333f48;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #0065bd;
+  color: #fff;
+}
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
+    background: #f8971f;
+    border-color: #f8971f;
+    color: #fff;
+}
+
+
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #0065bd;
+    border: 2px solid #e6e4dc;
+}
+
+.edit-button {
+    background-color: #6E6269 !important;
+   
+   
+}
+
+button:hover,
+button:focus {
+    background-color: #1f262b;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #0065bd;
+    color: #fff;
+}
+
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #0065bd;
+    color: #fff;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #ebe8e2;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #0065bd; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #fff;
+    color: #333f48;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #fff;
+    color: #0065bd;
+}
+
+table th {
+	background: #0065bd;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: .75px;
+	border-bottom: 1px solid #e6e4dc;
+}
+
+table td {
+    background: #f8f8f8;
+}
+table a {
+    color: #1f262b;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #0065bd;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-bottom: 1px solid #e6e4dc;
+}
+
+
+.footer {
+      background: #0065bd;
+      border-top: 1px solid #e6e4dc;
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #fff;
+    color: #1f262b;
+    border-right: 2px solid #e6e4dc;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #fff;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #1f262b !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+	
+	background-color: #fff;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #579d42 !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #BE3A34;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #f8971f !important;
+    color: #1f262b;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #ffd600;
+    color: #1f262b;
+}
+router-view .buttons button {
+    background-color: #333f48;
+    color: #fff;
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
+
+
+
+
