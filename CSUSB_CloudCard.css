@@ -46,7 +46,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     box-shadow: none;
 }
 .header-page .filters .filter:after {
-    color: #0065bd;
+    color: #fff;
 }
 header.header-main {
   background-color: #0065bd;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .photo-rows-container photo-row:nth-child(even) {
-    background: #e8e8e8;
+    background: #f1f1f1;
 }
 .photo-requirements li i {
     color: #0065bd;	
@@ -117,15 +117,15 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #0065bd;
+    border-bottom-color: #507cc8;
 }
 
 .header-page .buttons button {
-  background-color: #fff;
-  color: #333f48;
-  border: 2px solid #e6e4dc;
+  background-color: #0065bd;
+  color: #fff;
+  border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #0065bd;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #507cc8;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #333f48;
@@ -135,7 +135,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #0065bd;
+  background-color: #507cc8;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -201,17 +201,17 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff;
+    color: #f1f1f1;
 }
 
 .open-nav {
-    color: #ddd;
+    color: #f1f1f1;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff;
+    color: #f1f1f1;
 }
 
 .admin-links .fa {
@@ -219,25 +219,25 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #fff;
-    color: #333f48;
+    background: #f1f1f1;
+    color: #4b4b4b;
     text-transform:uppercase;
     letter-spacing: .5px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #fff;
+    background: #f1f1f1;
     color: #0065bd;
 }
 
 table th {
-	background: #0065bd;
+	background: #808284;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
-	border-bottom: 1px solid #e6e4dc;
+
 }
 
 table td {
@@ -255,35 +255,39 @@ table a:hover {
 
 photo-list-header.photo-list-columns {
     background: #808284;
-    color: #fff;
+    color: #f1f1f1;
     font-weight: 600;
     letter-spacing: .5px;
-    
 }
 
 
 .footer {
-      background: #0065bd;
-      border-top: 1px solid #e6e4dc;
+      background: #fff;
+     color: #4b4b4b;
+     border-top: 2px solid #808284 
 }
 
+.footer-main a {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #fff;
-    color: #1f262b;
-    border-right: 2px solid #e6e4dc;
+    background: #f1f1f1;
+    color: #4b4b4b;
+    border-right: 2px solid #808284;
     height: 100% !important;
 }
    .nav-open {
-    background: #fff;
+    background: #f1f1f1;
     }
 
 
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #1f262b !important;
+    color: #4b4b4b !important;
 
     font-weight: 500;
 }
@@ -291,31 +295,31 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 	
-	background-color: #fff;
+	background-color: #f1f1f1;
 }
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #579d42 !important;
+    background-color: #007934 !important;
     color: #fff;
 
 }
 
 .current-photo--status.denied, .current-photo--status.pending.bad {
-    background-color: #BE3A34;
+    background-color: #9e3039;
 	color: #fff;
 }
 
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
-          background-color: #f8971f !important;
-    color: #1f262b;
+          background-color: #e98300 !important;
+    color: #222;
 }
 .current-photo--status.pending.unclassified{
-    background-color: #ffd600;
-    color: #1f262b;
+    background-color: #f3cf45;
+    color: #222;
 }
 router-view .buttons button {
-    background-color: #333f48;
+    background-color: #003c69;
     color: #fff;
 }
 /*
