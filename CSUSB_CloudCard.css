@@ -254,17 +254,17 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #808284;
-    color: #f1f1f1;
+    background: #004a8a;
+    color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
 }
 
 
 .footer {
-      background: #fff;
-     color: #4b4b4b;
-     border-top: 2px solid #808284 
+      background: #f1f1f1;
+      color: #4b4b4b;
+      border-top: 2px solid #808284;
 }
 
 .footer-main a {
