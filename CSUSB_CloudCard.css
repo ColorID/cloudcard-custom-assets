@@ -117,7 +117,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #e6e4dc;
+    border-bottom-color: #0065bd;
 }
 
 .header-page .buttons button {
@@ -254,11 +254,11 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #0065bd;
+    background: #808284;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
-    border-bottom: 1px solid #e6e4dc;
+    
 }
 
 
