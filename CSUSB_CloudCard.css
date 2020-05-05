@@ -104,7 +104,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #333f48;
+  color: #4b4b4b;
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -112,7 +112,7 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #0065bd;
+  color: #004a8a;
 }
 
 /* Keep this block only if it looks good. */
