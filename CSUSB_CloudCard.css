@@ -142,9 +142,9 @@ empty-queue-message {
   color: #fff;
    */
 .header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
-    background: #f8971f;
-    border-color: #f8971f;
-    color: #fff;
+    background: #E98300;
+    border-color: #E98300;
+    color: #222;
 }
 
 
@@ -156,11 +156,11 @@ empty-queue-message {
 
 button {
     background-color: #0065bd;
-    border: 2px solid #e6e4dc;
+    border: 2px solid #f1f1f1;
 }
 
 .edit-button {
-    background-color: #6E6269 !important;
+    background-color: #808284 !important;
    
    
 }
@@ -200,7 +200,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #F1F1EB;
+    color: #f1f1f1;
 }
 
 .open-nav {
