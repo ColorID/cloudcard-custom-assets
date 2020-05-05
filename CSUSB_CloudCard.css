@@ -117,7 +117,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #507cc8;
+    border-bottom-color: #0073d7;
 }
 
 .header-page .buttons button {
@@ -125,7 +125,7 @@ empty-queue-message {
   color: #fff;
   border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #507cc8;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #0073d7;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #333f48;
@@ -135,7 +135,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #507cc8;
+  background-color: #004a8a;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
