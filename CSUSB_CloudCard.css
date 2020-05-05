@@ -322,6 +322,15 @@ router-view .buttons button {
     background-color: #003c69;
     color: #fff;
 }
+
+photo-list-section-header.good-photos {
+    background: #69be28;
+  
+}
+photo-list-section-header div a {
+    color: #4b4b4b;
+  
+}
 /*
  .hide-on-mobile-small {
     display: none;
