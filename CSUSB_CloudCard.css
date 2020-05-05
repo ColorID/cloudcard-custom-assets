@@ -81,7 +81,7 @@ a:hover {
     color: #0065bd;	
 }
 .header-page h1 {
-    color: #333f48;
+    color: #4b4b4b;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -127,7 +127,7 @@ empty-queue-message {
 .header-page .tabs a.active {color: #0073d7;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
-  background-color: #333f48;
+  background-color: #4b4b4b;
   color: #fff;
 }
 
