@@ -62,7 +62,6 @@ header.header-main {
 
 header.header-page {
   background-color: #fff;
-  
 }
 
 a {
@@ -241,7 +240,7 @@ table th {
 }
 
 table td {
-    background: #f8f8f8;
+    background: #f2f3f4;
 }
 table a {
     color: #1f262b;
@@ -262,7 +261,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #f1f1f1;
+      background: #fff;
       color: #4b4b4b;
       border-top: 2px solid #808284;
 }
