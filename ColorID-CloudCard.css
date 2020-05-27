@@ -232,12 +232,12 @@ photo-list-header.photo-list-columns {
     color: #575a5c;
     border-right: 2px solid #575a7c;
     height: 100% !important;
-
-    &.nav-open {
+}
+    .nav-open {
 	background: #e3f1f1;
     }
 	
-}
+
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
@@ -251,12 +251,6 @@ ul.photo-requirements {
 	background-color:#e3f1f1;
 }
 
- .hide-on-mobile-small {
-  display: none;
-}
-.hide-on-mobile-small {
-  display: none;
-}
 
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
