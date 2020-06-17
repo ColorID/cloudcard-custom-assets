@@ -32,17 +32,17 @@ html {
 
 .header-page .filters .filter--input input {
     border: 2px solid #003399;
-    color: #222;
+    color: #000;
 }
 
 .header-page input{
-	border: 1.5px solid #222;
-	color: #222;
+	border: 1.5px solid #000;
+	color: #000;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #222;
-    color: #222;
+    border: 1.5px solid #000;
+    color: #000;
     box-shadow: none;
 }
 .header-page .filters .filter:after {
@@ -65,13 +65,13 @@ header.header-page {
 }
 
 a {
-    color: #222;
+    color: #000;
   
  
 }
 
 a:hover {
-    color: #222;
+    color: #000;
 }
 
 .photo-rows-container photo-row:nth-child(even) {
@@ -81,7 +81,7 @@ a:hover {
     color: #003399;	
 }
 .header-page h1 {
-    color: #222;
+    color: #000;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -103,7 +103,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #222;
+  color: #000;
   font-weight: 600;
   
 }
@@ -127,7 +127,7 @@ empty-queue-message {
 .header-page .tabs a.active {color: #003399;font-weight: 600;}
 
 .header-page button {
-  background-color: #222;
+  background-color: #000;
   color: #fff;
 }
 
@@ -144,7 +144,7 @@ empty-queue-message {
 .header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
     background: #E98300;
     border-color: #E98300;
-    color: #222;
+    color: #000;
 }
 
 
@@ -160,14 +160,14 @@ button {
 }
 
 .edit-button {
-    background-color: #222 !important;
+    background-color: #000 !important;
    
    
 }
 
 button:hover,
 button:focus {
-    background-color: #222;
+    background-color: #000;
 }
 
 router-view .buttons button.primary,
@@ -219,7 +219,7 @@ button.submit-login:focus
 
 .admin-links a {
     background: #fff;
-    color: #222;
+    color: #000;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 500;
@@ -248,7 +248,7 @@ table a {
 }
 
 table a:hover {
-    color: #222;
+    color: #000;
     text-decoration: none;
 }
 
@@ -263,7 +263,7 @@ photo-list-header.photo-list-columns {
 .footer {
       background: #fff;
       color: #000;
-      border-top: 2px solid #222;
+      border-top: 2px solid #000;
 }
 
 .footer-main a {
@@ -274,8 +274,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #fff;
-    color: #222;
-    border-right: 2px solid #222;
+    color: #000;
+    border-right: 2px solid #000;
     height: 100% !important;
 }
    .nav-open {
@@ -286,7 +286,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #222 !important;
+    color: #000 !important;
 
     font-weight: 500;
 }
@@ -311,11 +311,11 @@ photo-list-header.photo-list-columns {
 
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
           background-color: #e98300 !important;
-    color: #222;
+    color: #000;
 }
 .current-photo--status.pending.unclassified{
     background-color: #f3cf45;
-    color: #222;
+    color: #000;
 }
 router-view .buttons button {
     background-color: #003c69;
@@ -327,7 +327,7 @@ photo-list-section-header.good-photos {
   
 }
 photo-list-section-header div a {
-    color: #222;
+    color: #000;
   
 }
 /*
