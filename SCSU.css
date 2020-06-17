@@ -32,17 +32,17 @@ html {
 
 .header-page .filters .filter--input input {
     border: 2px solid #003399;
-    color: #4b4b4b;
+    color: #222;
 }
 
 .header-page input{
-	border: 1.5px solid #808284;
-	color: #4b4b4b;
+	border: 1.5px solid #222;
+	color: #222;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #808284;
-    color: #4b4b4b;
+    border: 1.5px solid #222;
+    color: #222;
     box-shadow: none;
 }
 .header-page .filters .filter:after {
@@ -75,13 +75,13 @@ a:hover {
 }
 
 .photo-rows-container photo-row:nth-child(even) {
-    background: #f1f1f1;
+    background: #fff;
 }
 .photo-requirements li i {
     color: #003399;	
 }
 .header-page h1 {
-    color: #4b4b4b;
+    color: #222;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -103,38 +103,38 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #4b4b4b;
+  color: #222;
   font-weight: 600;
-  letter-spacing: .5px;
+  
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #004a8a;
+  color: #003399;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #0073d7;
+    border-bottom-color: #003399;
 }
 
 .header-page .buttons button {
-  background-color: #003399;
-  color: #fff;
-  border: 2px solid #f1f1f1;
+  background-color: #fff;
+  color: #003399;
+  border: 2px solid #003399;
 }
-.header-page .tabs a.active {color: #0073d7;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #003399;font-weight: 600;}
 
 .header-page button {
-  background-color: #4b4b4b;
+  background-color: #222;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #004a8a;
+  background-color: #003399;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -156,11 +156,11 @@ empty-queue-message {
 
 button {
     background-color: #003399;
-    border: 2px solid #f1f1f1;
+    border: 2px solid #fff;
 }
 
 .edit-button {
-    background-color: #808284 !important;
+    background-color: #222 !important;
    
    
 }
@@ -195,22 +195,22 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #ffeec3;
+    color: #fff;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .open-nav {
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .admin-links .fa {
@@ -218,8 +218,8 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #f1f1f1;
-    color: #4b4b4b;
+    background: #fff;
+    color: #222;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 500;
@@ -227,12 +227,12 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #f1f1f1;
-    color: #0073d7;
+    background: #fff;
+    color: #003399;
 }
 
 table th {
-	background: #808284;
+	background: #003399;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -248,12 +248,12 @@ table a {
 }
 
 table a:hover {
-    color: #333333;
+    color: #222;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #004a8a;
+    background: #003399;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -262,31 +262,31 @@ photo-list-header.photo-list-columns {
 
 .footer {
       background: #fff;
-      color: #4b4b4b;
-      border-top: 2px solid #808284;
+      color: #000;
+      border-top: 2px solid #222;
 }
 
 .footer-main a {
-    color: #4b4b4b;
+    color: #000;
     text-decoration: underline;
 }
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f1f1f1;
-    color: #4b4b4b;
-    border-right: 2px solid #808284;
+    background: #fff;
+    color: #222;
+    border-right: 2px solid #222;
     height: 100% !important;
 }
    .nav-open {
-    background: #f1f1f1;
+    background: #fff;
     }
 
 
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #4b4b4b !important;
+    color: #222 !important;
 
     font-weight: 500;
 }
@@ -294,7 +294,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 	
-	background-color: #f1f1f1;
+	background-color: #fff;
 }
 
 
@@ -327,7 +327,7 @@ photo-list-section-header.good-photos {
   
 }
 photo-list-section-header div a {
-    color: #4b4b4b;
+    color: #222;
   
 }
 /*
