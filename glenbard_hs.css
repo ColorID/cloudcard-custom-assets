@@ -49,7 +49,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     color: #fff;
 }
 header.header-main {
-  background-color: #171796;
+  background-color: #fff;
   height:8.25em;
 }
 
@@ -111,12 +111,12 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #004a8a;
+  color: #171796;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #0073d7;
+    border-bottom-color: #171796;
 }
 
 .header-page .buttons button {
@@ -124,7 +124,7 @@ empty-queue-message {
   color: #fff;
   border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #0073d7;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #171796;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #4b4b4b;
@@ -134,7 +134,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #004a8a;
+  background-color: #171796;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -191,11 +191,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #000;
 }
 
 .user-info a {
-    color: #ffeec3;
+    color: #f7b512;
 }
 
 .user-info a:hover,
@@ -228,7 +228,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #0073d7;
+    color: #171796;
 }
 
 table th {
@@ -253,7 +253,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #004a8a;
+    background: #171796;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -318,7 +318,7 @@ photo-list-header.photo-list-columns {
     color: #222;
 }
 router-view .buttons button {
-    background-color: #003c69;
+    background-color: #171796;
     color: #fff;
 }
 
