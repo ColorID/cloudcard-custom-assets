@@ -126,7 +126,7 @@ empty-queue-message {
   color: #fff;
   border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #171796;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #414042; font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #414042;
