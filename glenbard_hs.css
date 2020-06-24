@@ -32,17 +32,17 @@ html {
 
 .header-page .filters .filter--input input {
     border: 2px solid #171796;
-    color: #4b4b4b;
+    color: #222;
 }
 
 .header-page input{
-	border: 1.5px solid #808284;
-	color: #4b4b4b;
+	border: 1.5px solid #222;
+	color: #222;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #808284;
-    color: #4b4b4b;
+    border: 1.5px solid #222;
+    color: #222;
     box-shadow: none;
 }
 .header-page .filters .filter:after {
@@ -50,13 +50,15 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 header.header-main {
   background-color: #fff;
-  height:8.25em;
+  height:11.25em;
+  border-bottom: 2px solid #171796;
 }
 
 .logo {
   background: url('https://colorid.github.io/cloudcard-custom-assets/District Logo.png') top center no-repeat;
   display: inline-block;
   width: 225px;
+  height: 7em;
   background-size: contain;
 }
 
@@ -81,7 +83,7 @@ a:hover {
     color: #171796;	
 }
 .header-page h1 {
-    color: #4b4b4b;
+    color: #222;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -103,7 +105,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #4b4b4b;
+  color: #222;
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -127,7 +129,7 @@ empty-queue-message {
 .header-page .tabs a.active {color: #171796;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
-  background-color: #4b4b4b;
+  background-color: #222;
   color: #fff;
 }
 
@@ -160,7 +162,7 @@ button {
 }
 
 .edit-button {
-    background-color: #808284 !important;
+    background-color: #222 !important;
    
    
 }
@@ -219,7 +221,7 @@ button.submit-login:focus
 
 .admin-links a {
     background: #f1f1f1;
-    color: #4b4b4b;
+    color: #222;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 500;
@@ -232,11 +234,10 @@ button.submit-login:focus
 }
 
 table th {
-	background: #808284;
+	background: #171796;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
-
 }
 
 table td {
@@ -248,7 +249,7 @@ table a {
 }
 
 table a:hover {
-    color: #333333;
+    color: #222;
     text-decoration: none;
 }
 
@@ -262,20 +263,20 @@ photo-list-header.photo-list-columns {
 
 .footer {
       background: #fff;
-      color: #4b4b4b;
-      border-top: 2px solid #808284;
+      color: #222;
+      border-top: 2px solid #171796;
 }
 
 .footer-main a {
-    color: #4b4b4b;
+    color: #222;
     text-decoration: underline;
 }
 
 .sidebar-main,
 .sidebar-mobile {
     background: #f1f1f1;
-    color: #4b4b4b;
-    border-right: 2px solid #808284;
+    color: #222;
+    border-right: 2px solid #171796;
     height: 100% !important;
 }
    .nav-open {
@@ -286,7 +287,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #4b4b4b !important;
+    color: #222 !important;
 
     font-weight: 500;
 }
@@ -327,7 +328,7 @@ photo-list-section-header.good-photos {
   
 }
 photo-list-section-header div a {
-    color: #4b4b4b;
+    color: #222;
   
 }
 /*
