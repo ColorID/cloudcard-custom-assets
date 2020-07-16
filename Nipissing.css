@@ -118,13 +118,13 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #fdb525;
+    border-bottom-color: #;
 }
 
 .header-page .buttons button {
-  background-color: #424242;
+  background-color: #00457c;
   color: #fff;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #edf4fc;
 }
 .header-page .tabs a.active {color: #424242; font-weight: 600;letter-spacing: .5px;}
 
