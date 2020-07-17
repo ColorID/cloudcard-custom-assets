@@ -234,8 +234,8 @@ button.submit-login:focus
 }
 
 table th {
-	background: #00457c;
-	color: #fff;
+	background: #edf4fc;
+	color: #424242;
 	font-weight: 600;
 	letter-spacing: .75px;
 }
@@ -254,8 +254,8 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #00457c;
-    color: #fff;
+    background: #edf4fc;
+    color: #424242;
     font-weight: 600;
     letter-spacing: .5px;
 }
