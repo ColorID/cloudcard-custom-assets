@@ -58,7 +58,7 @@ header.header-main {
   background: url('https://colorid.github.io/cloudcard-custom-assets/NULogowhite.png') top center no-repeat;
   display: inline-block;
   max-width: 350px;
-  height: 9em;
+  height: 4.5em;
   background-size: contain;
 }
 
@@ -262,7 +262,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #fff;
+      background: #edf4fc;
       color: #424242;
       border-top: 2px solid #424242;
 }
