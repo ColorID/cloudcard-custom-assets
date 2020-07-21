@@ -14,23 +14,15 @@ html {
   fill: #fff;
 }
 
-.header-page .filters select {  
-	    color: #fff;
-	    background-color: #bf5700;
-	    
-}
 
-.header-page .filters .filter:hover select,
-.header-page .filters .filter:focus-within select {
-    background-color: #bf5700;
-    color: #fff;
-   
+.header-page .filters select {  
+	    display: none;
+	    
 }
 
 
 .header-page .filters .filter--input input {
-    border: 2px solid #bf5700;
-    color: #333f48;
+     display: none;
 }
 
 .header-page input{
