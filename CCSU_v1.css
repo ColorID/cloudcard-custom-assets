@@ -1,84 +1,153 @@
+@charset "UTF-8";
+
 /*
-https://colorid.github.io/cloudcard-custom-assets/CCSU_v1.css
-{{Color_1}}: 3959b1
-{{Color_1_Shade}}: #33509f; (goto http://www.color-hex.com/color/3959b1 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 224466
-{{Color_2_Tint}}: #e8ecef; (goto http://www.color-hex.com/color/224466 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/CCSU/CCSUtextlogo.svg
- i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
-*/ 
+https://colorid.github.io/cloudcard-custom-assets/CCSU.css      
+*/
 
 html {
-  background: #3959b1;
+  background: #ffffff;
 }
 
 .splash {
-  background-color: #3959b1;
+  background-color: #ffffff;
 }
 
 .splash .loading path {
   fill: #fff;
 }
 
+.header-page .filters select {  
+	    color: #fff;
+	    background-color: #06519b;
+	    
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #06519b;
+    color: #fff;
+   
+}
+
+
+.header-page .filters .filter--input input {
+    border: 2px solid #06519b;
+    color: #222;
+}
+
+.header-page input{
+	border: 1.5px solid #222;
+	color: #222;
+}
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+    border: 1.5px solid #222;
+    color: #222;
+    box-shadow: none;
+}
+.header-page .filters .filter:after {
+    color: #fff;
+}
 header.header-main {
-  background-color: #3959b1;
-  height:10.5em;
+  background-color: #06519b;
+  height:8.25em;
 }
 
 .logo {
   background: url('https://colorid.github.io/cloudcard-custom-assets/CCSU.svg') top center no-repeat;
   display: inline-block;
-  width: 15.63em;
+  width: 300px;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#224466;
+  background-color: #fff;
 }
 
+a {
+    color: #222;
+  
+ 
+}
+
+a:hover {
+    color: #222;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #f1f1f1;
+}
+.photo-requirements li i {
+    color: #06519b;	
+}
+.header-page h1 {
+    color: #222;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+
+
+.header-page .fa-search {
+	color: #06519b !important;
+	
+	
+}
+
+
 .header-page .tabs li a {
-  border-bottom-color:#224466;
-  color: #e8ecef;
+  border-bottom-color: transparent;
+  color: #222;
+  font-weight: 600;
+  
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #fff;
+  color: #06519b;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #3959b1;
+    border-bottom-color: #06519b;
 }
 
 .header-page .buttons button {
-  background-color: #3959b1;
-  color: #fff;
+  background-color: #fff;
+  color: #06519b;
+  border: 2px solid #06519b;
 }
+.header-page .tabs a.active {color: #06519b;font-weight: 600;}
 
 .header-page button {
-  background-color: #224466;
+  background-color: #222;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus
+.header-page .buttons button:focus 
 {
-  background-color: #e8ecef;
-  color: #3959b1;
-
+  background-color: #06519b;
+  color: #fff;
+}
   /* Alternative if the above doesn't look so great.
-  background-color: #224466;
+  background-color: #c05131;
   color: #fff;
    */
+.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
+    background: #E98300;
+    border-color: #E98300;
+    color: #222;
 }
 
-.header-page .filters .filter:hover select,
-.header-page .filters .filter:focus-within select {
-    background-color: #3959b1;
-    color: #fff;
-}
+
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
@@ -86,20 +155,29 @@ header.header-page {
 }
 
 button {
-    background-color: #224466;
+    background-color: #06519b;
+    border: 2px solid #fff;
+}
+
+.edit-button {
+    background-color: #222 !important;
+   
+   
 }
 
 button:hover,
 button:focus {
-    background-color: #e8ecef;
+    background-color: #222;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #3959b1;
+    background-color: #06519b;
+    color: #fff;
 }
+
 
 router-view .buttons button.primary:hover,
 router-view .buttons button.primary:focus,
@@ -108,7 +186,8 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #33509f;
+    background-color: #06519b;
+    color: #fff;
 }
 
 .user-info {
@@ -116,7 +195,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #e8ecef;
+    color: #fff;
 }
 
 .user-info a:hover,
@@ -125,7 +204,7 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #ddd;
+    color: #fff;
 }
 
 .open-nav:hover,
@@ -135,26 +214,145 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #e8ecef; /*default #007bff*/
+    color: #06519b; /*default #007bff*/
 }
 
-table th,
-table td {
-    background: #e8ecef;
+.admin-links a {
+    background: #fff;
+    color: #222;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+    font-weight: 500;
 }
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #fff;
+    color: #06519b;
+}
+
+table th {
+	background: #06519b;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: .75px;
+
+}
+
+table td {
+    background: #f2f3f4;
+}
+table a {
+    color: #222;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #06519b;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
 
 .footer {
-    background: #3959b1;
+      background: #fff;
+      color: #000;
+      border-top: 2px solid #222;
 }
 
+.footer-main a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #fff;
+    color: #222;
+    border-right: 2px solid #222;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #fff;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #222 !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+	
+	background-color: #fff;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #007934 !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #e98300 !important;
+    color: #222;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #f3cf45;
+    color: #222;
+}
+router-view .buttons button {
+    background-color: #003c69;
+    color: #fff;
+}
+
+photo-list-section-header.good-photos {
+    background: #69be28;
+  
+}
+photo-list-section-header div a {
+    color: #222;
+  
+}
+
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
 }
+*/
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
 }
 */
+
+
+
+
