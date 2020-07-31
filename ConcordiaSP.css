@@ -17,7 +17,7 @@ html {
 }
 
 .header-page .filters select {  
-	    color: #fff;
+	    color: #e6b220;
 	    background-color: #003055;
 	    
 }
@@ -25,8 +25,7 @@ html {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #003055;
-    color: #fff;
-   
+    color: #e6b220;
 }
 
 
@@ -46,7 +45,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     box-shadow: none;
 }
 .header-page .filters .filter:after {
-    color: #fff;
+    color: #e6b220;
 }
 header.header-main {
   background-color: #003055;
@@ -120,9 +119,9 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #fff;
-  color: #003055;
-  border: 2px solid #003055;
+  background-color: #003055;
+  color: #e6b220;
+  border: 2px solid #fff;
 }
 .header-page .tabs a.active {color: #003055;font-weight: 600;}
 
@@ -135,7 +134,7 @@ empty-queue-message {
 .header-page .buttons button:focus 
 {
   background-color: #003055;
-  color: #fff;
+  color: #ff;
 }
   /* Alternative if the above doesn't look so great.
   background-color: #c05131;
@@ -151,7 +150,7 @@ empty-queue-message {
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fff;
+    color: #e6b220;
 }
 
 button {
