@@ -134,7 +134,7 @@ empty-queue-message {
 .header-page .buttons button:focus 
 {
   background-color: #003055;
-  color: #ff;
+  color: #fff;
 }
   /* Alternative if the above doesn't look so great.
   background-color: #c05131;
