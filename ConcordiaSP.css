@@ -116,7 +116,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #003055;
+    border-bottom-color: #e6b220;
 }
 
 .header-page .buttons button {
@@ -214,12 +214,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #003055; /*default #007bff*/
+    color: #e6b220; /*default #007bff*/
 }
 
 .admin-links a {
     background: #fff;
-    color: #3d3d3d;
+    color: #003055;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 500;
@@ -228,7 +228,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #fff;
-    color: #003055;
+    color: #3d3d3d;
 }
 
 table th {
@@ -261,13 +261,13 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #fff;
-      color: #000;
+      background: #003055;
+      color: #e6b220;
       border-top: 2px solid #3d3d3d;
 }
 
 .footer-main a {
-    color: #000;
+    color: #e6b220;
     text-decoration: underline;
 }
 
@@ -275,7 +275,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #fff;
     color: #3d3d3d;
-    border-right: 2px solid #3d3d3d;
+    border-right: 2px solid #003055;
     height: 100% !important;
 }
    .nav-open {
