@@ -1,9 +1,5 @@
 /*
-Color 1: #f4f4f4 
-Color_1_Shade: #001931; (goto http://www.color-hex.com/color/115740 ; use the second Shade -- just needs to be a little bit darker.)
-Color 2: #01426a
-Color_2_Tint: #cdcac6; (goto http://www.color-hex.com/color/01426a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-Logo URL: www.github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/cal-poly-Primary%20Logo.png?raw=true i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+https://colorid.github.io/cloudcard-custom-assets/Cal-Poly.css     
 */
 
 html {
@@ -165,12 +161,11 @@ table td {
     color: #01426a;
     border-right: 3px solid #00843d;
     height: 100% !important;
-
-    &.nav-open {
-	background: #f4f4f4;
-    }
-	
 }
+    .nav-open {
+		background: #f4f4f4;}
+	
+
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
@@ -185,6 +180,46 @@ ul.photo-requirements {
 .photo-requirements li i {
     color: #0057b8;
 }
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #00843d !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #ffb500 !important;
+    color: #111111;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #ffb500;
+    color: #111;
+}
+router-view .buttons button {
+    background-color: #01426a;
+    color: #fff;
+}
+
+photo-list-section-header.good-photos {
+    background: #6cc24a;
+  
+}
+photo-list-section-header div a {
+    color: #3d3d3d;
+  
+}
+
+
+.edit-button {
+display: none;
+}
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
