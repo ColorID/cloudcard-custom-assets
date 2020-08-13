@@ -181,6 +181,10 @@ ul.photo-requirements {
 	
 	background-color:#f4f4f4;
 }
+
+.photo-requirements li i {
+    color: #0057b8;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
