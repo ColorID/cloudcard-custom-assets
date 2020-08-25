@@ -94,7 +94,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #cdcac6;
+    background-color: #01426a;
 }
 
 router-view .buttons button.primary:hover,
@@ -215,10 +215,6 @@ photo-list-section-header div a {
   
 }
 
-
-.edit-button {
-display: none;
-}
 
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
