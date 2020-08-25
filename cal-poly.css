@@ -216,6 +216,11 @@ photo-list-section-header div a {
 }
 
 
+router-view .buttons button.primary, #accept-terms, button.submit-login {
+    background-color: #333333; !important
+	color: #fff;
+}
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
