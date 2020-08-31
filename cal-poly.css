@@ -205,7 +205,11 @@ router-view .buttons button {
     background-color: #01426a;
     color: #fff;
 }
-
+router-view .buttons button:hover {
+    background-color: #fff;
+    color: #01426a;
+    border: 2px solid #01426a;
+}
 photo-list-section-header.good-photos {
     background: #6cc24a;
   
