@@ -217,7 +217,7 @@ photo-list-section-header div a {
 
 
 router-view .buttons button.primary, #accept-terms, button.submit-login {
-    background-color: #333333; !important
+    background-color: #333333; 
 	color: #fff;
 }
 
