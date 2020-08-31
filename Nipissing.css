@@ -46,16 +46,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     box-shadow: none;
 }
 .header-page .filters .filter:after {
-    color: #fff;
+    color: #00457c;
 }
 header.header-main {
-  background-color: #00457c;
+  background-color: #ffffff;
   height:11.25em;
-  border-bottom: 2px solid #424242;
+  border-bottom: 2px solid #00457c;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/NULogowhite.png') top center no-repeat;
+  background: url('https://colorid.github.io/cloudcard-custom-assets/Nipissing_color.png') top center no-repeat;
   display: inline-block;
   max-width: 350px;
   height: 4.5em;
@@ -193,16 +193,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #00457c;
 }
 
 .user-info a {
-    color: #edf4fc;
+    color: #62bd46;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #f1f1f1;
+    color: #007f60;
 }
 
 .open-nav {
