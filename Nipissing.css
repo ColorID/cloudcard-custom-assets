@@ -122,11 +122,11 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #00457c;
+  background-color: #007f60;
   color: #fff;
   border: 2px solid #edf4fc;
 }
-.header-page .tabs a.active {color: #424242; font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #00457c; font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #424242;
@@ -136,7 +136,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #00457c;
+  background-color: #007f60;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -254,9 +254,9 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #edf4fc;
-    color: #424242;
-    font-weight: 600;
+    background: #00457c;
+    color: #ffffff;
+    font-weight: 400;
     letter-spacing: .5px;
 }
 
