@@ -18,7 +18,7 @@ html {
 
 .header-page .filters select {  
 	    color: #fff;
-	    background-color: #00457c;
+	    background-color: #007f60;
 	    
 }
 
@@ -29,6 +29,9 @@ html {
    
 }
 
+.header-page .filters .filter:after {
+    color: #ffffff;
+}
 
 .header-page .filters .filter--input input {
     border: 2px solid #00457c;
@@ -45,9 +48,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     color: #424242;
     box-shadow: none;
 }
-.header-page .filters .filter:after {
-    color: #00457c;
-}
+
 header.header-main {
   background-color: #ffffff;
   height:11.25em;
