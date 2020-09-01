@@ -301,7 +301,7 @@ photo-list-header.photo-list-columns {
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #007934 !important;
+    background-color: #007F60 !important;
     color: #fff;
 
 }
@@ -325,7 +325,7 @@ router-view .buttons button {
 }
 
 photo-list-section-header.good-photos {
-    background: #69be28;
+    background: #62BD46;
   
 }
 photo-list-section-header div a {
