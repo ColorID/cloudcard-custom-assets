@@ -65,6 +65,7 @@ header.header-main {
 
 header.header-page {
   background-color: #fff;
+  border-bottom: 2px solid #939598;
 }
 
 a {
@@ -231,7 +232,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #ffffff;
-    color: #007f60;
+    color: #00457c;
 }
 
 table th {
@@ -239,6 +240,7 @@ table th {
 	color: #ffffff;
 	font-weight: 500;
 	letter-spacing: .5px;
+
 }
 
 table td {
