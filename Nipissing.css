@@ -24,7 +24,7 @@ html {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #00457c;
+    background-color: #0e6950;
     color: #fff;
    
 }
