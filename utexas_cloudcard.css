@@ -44,11 +44,14 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/uTexas_primary_white_stacked.png') top center no-repeat;
-  display: inline-block;
-  width: 225px;
-  background-size: contain;
+  background: url(https://colorid.github.io/cloudcard-custom-assets/Texas_header_v2-01.png) top center no-repeat;
+    display: inline-block;
+    width: 425px;
+    height: 125px;
+    background-size: contain;
 }
+
+
 
 header.header-page {
   background-color: #f9fafb;
