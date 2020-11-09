@@ -18,13 +18,13 @@ html {
 
 .header-page .filters select {  
 	    color: #fff;
-	    background-color: #F3C300;
+	    background-color: #512E91;
 	    
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #0e6950;
+    background-color: #2E1A46;
     color: #fff;
    
 }
@@ -82,7 +82,7 @@ a:hover {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #f3c300;	
+    color: #F1C400;	
 }
 .header-page h1 {
     color: #512e91;
@@ -124,7 +124,7 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #F3C300;
+  background-color: #512E91;
   color: #fff;
   border: 1px solid #BFB7B0;
 }
@@ -138,7 +138,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #0e6950;
+  background-color: #2E1A46;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -199,12 +199,12 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #F3C300;
+    color: #F1C400;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #F3C300;
+    color: #F1C400;
 }
 
 .open-nav {
@@ -218,11 +218,11 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #F3C300; /*default #007bff*/
+    color: #F1C400; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #512e91;
+    background: #2E1A46;
     color: #fff;
     text-transform:uppercase;
     letter-spacing: .5px;
@@ -236,7 +236,7 @@ button.submit-login:focus
 }
 
 table th {
-	background: #512e91;
+	background: #2E1A46;
 	color: #ffffff;
 	font-weight: 500;
 	letter-spacing: .5px;
@@ -257,7 +257,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #512e91;
+    background: #2E1A46;
     color: #ffffff;
     font-weight: 400;
     letter-spacing: .5px;
@@ -265,7 +265,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #512e91;
+      background: #2E1A46;
       color: #ffffff;
       border-top: 2px solid #BFB7B0;
       
@@ -278,13 +278,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #512e91;
+    background: #2E1A46;
     color: #fff;
     border-right: 2px solid #BFB7B0;
     height: 100% !important;
 }
    .nav-open {
-    background: #512e91;
+    background: #2E1A46;
     }
 
 
@@ -299,7 +299,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 	
-	background-color: #512e91;
+	background-color: #2E1A46;
 }
 
 
