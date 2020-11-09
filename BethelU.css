@@ -18,13 +18,13 @@ html {
 
 .header-page .filters select {  
 	    color: #fff;
-	    background-color: #512E91;
+	    background-color: #2E1A46;
 	    
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #2E1A46;
+    background-color: #512E91;
     color: #fff;
    
 }
@@ -34,7 +34,7 @@ html {
 }
 
 .header-page .filters .filter--input input {
-    border: 2px solid #512e91;
+    border: 2px solid #BFB7B0;
     color: #424242;
 }
 
@@ -85,7 +85,7 @@ a:hover {
     color: #F1C400;	
 }
 .header-page h1 {
-    color: #512e91;
+    color: #2D2D2D;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -124,7 +124,7 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #512E91;
+  background-color: #2E1A46;
   color: #fff;
   border: 1px solid #BFB7B0;
 }
@@ -138,7 +138,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #2E1A46;
+  background-color: #512E91;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -195,11 +195,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #512e91;
+    color: #2E1A46;
 }
 
 .user-info a {
-    color: #F1C400;
+    color: #613393;
 }
 
 .user-info a:hover,
