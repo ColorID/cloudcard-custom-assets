@@ -1,5 +1,5 @@
 /*
-https://colorid.github.io/cloudcard-custom-assets/Cal-Poly.css     
+https://colorid.github.io/cloudcard-custom-assets/McGill.css     
 */
 
 html {
@@ -18,7 +18,7 @@ html {
 header.header-main {
   background-color: #f4f4f4 ;
   height:10.5em;
-	border-bottom: 3px solid #00843d;
+	border-bottom: 3px solid #5d6770;
 
 }
 
@@ -46,7 +46,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #00843D ;
+    border-bottom-color: #5d6770 ;
 }
 
 .header-page .buttons button {
@@ -62,7 +62,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #00843d;
+  background-color: #5d6770;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
@@ -73,7 +73,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #00843D;
+    background-color: #5d6770;
     color: #fff;
 }
 
@@ -88,7 +88,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #00843d;
+    background-color: #5d6770;
 }
 
 router-view .buttons button.primary,
@@ -105,7 +105,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #00843D;
+    background-color: #5d6770;
 }
 
 .user-info {
@@ -160,7 +160,7 @@ table td {
 .sidebar-mobile {
     background: #f4f4f4;
     color: #ed1b2f;
-    border-right: 3px solid #00843d;
+    border-right: 3px solid #5d6770;
     height: 100% !important;
 }
     .nav-open {
@@ -184,7 +184,7 @@ ul.photo-requirements {
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #00843d !important;
+    background-color: #5d6770 !important;
     color: #fff;
 
 }
