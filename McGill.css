@@ -16,7 +16,7 @@ html {
 }
 
 header.header-main {
-  background-color: #f4f4f4 ;
+  background-color: #f4f4f4;
   height:10.5em;
 	border-bottom: 3px solid #5d6770;
 
@@ -179,7 +179,7 @@ ul.photo-requirements {
 }
 
 .photo-requirements li i {
-    color: #0057b8;
+    color: #0096c9;
 }
 
 
