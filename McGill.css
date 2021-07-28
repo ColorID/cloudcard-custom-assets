@@ -226,6 +226,9 @@ router-view .buttons button.primary, #accept-terms, button.submit-login {
 	color: #fff;
 }
 
+.header-page .search .fa-search {
+	color: #44C8F5;
+}
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
