@@ -50,7 +50,7 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #ebe2cf;
+  background-color: #5d6770;
   color: #ed1b2f;
 }
 
@@ -137,7 +137,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #b2c6d2;
+    background: #5d6770;
 }
 
 .footer {
