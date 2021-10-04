@@ -187,9 +187,8 @@ ul.photo-requirements {
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #000000 !important;
+    background-color: #13c545 !important;
     color: #fff;
-
 }
 
 .current-photo--status.denied, .current-photo--status.pending.bad {
