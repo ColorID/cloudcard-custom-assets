@@ -29,18 +29,18 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#b7b7b7;
+  background-color: #f4f4f4;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#000000;
+  border-bottom-color: #000000;
   color: #000000;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #000000;
+  color: #6d6d6d;
 }
 
 /* Keep this block only if it looks good. */
@@ -49,8 +49,8 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #c6cacd;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .header-page button {
@@ -108,11 +108,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #6d6d6d;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #424242;
+    color: #b7b7b7;
 }
 
 .user-info a:hover,
@@ -136,16 +136,16 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #c6cacd;
+    background: #f1f1f1;
 }
 
 .footer {
-    background: #6d6d6d;
+    background: #000000;
 }
 
 .admin-links a {
-    background: #f4f4f4;
-    color: #353535;
+    background: #ffffff;
+    color: #000000;
 	font-weight: bold;
 	
 }
@@ -157,13 +157,13 @@ table td {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f4f4f4;
+    background: #ffffff;
     color: #6d6d6d;
     border-right: 3px solid #000000;
     height: 100% !important;
 }
     .nav-open {
-		background: #f4f4f4;}
+		background: #ffffff;}
 	
 
 
@@ -174,7 +174,7 @@ table td {
 
 ul.photo-requirements {
 	
-	background-color:#f4f4f4;
+	background-color:#ffffff;
 }
 
 .photo-requirements li i {
@@ -208,7 +208,7 @@ router-view .buttons button {
 router-view .buttons button:hover {
     background-color: #fff;
     color: #6d6d6d;
-    border: 2px solid #6d6d6d;
+    
 }
 photo-list-section-header.good-photos {
     background: #6cc24a;
