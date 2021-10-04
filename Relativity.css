@@ -21,6 +21,9 @@ header.header-main {
   border-bottom: 0px solid #ffffff;
 }
 
+.header-page h1 {
+    color: #000;
+}
 
 .logo {
   background: url("https://colorid.github.io/cloudcard-custom-assets/Relativity_White_RGB_900px.png") top center no-repeat;
@@ -45,6 +48,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
+	color: #000;
     border-bottom-color: #b7b7b7 ;
 }
 
