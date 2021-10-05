@@ -85,6 +85,16 @@ header.header-page {
     color: #fff;
 }
 
+.header-page .filters select {
+   
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: .3125em;
+    box-shadow: none;
+    color: #fff;
+
+}
+
 button {
     background-color: #000000;
 }
