@@ -16,13 +16,15 @@ html {
 }
 
 header.header-main {
-  background-color: #f4f4f4;
+  background-color: #d22030;
   height:10.5em;
-	border-bottom: 3px solid #5d6770;
+	border-bottom: 2px solid #000000;
 
 }
 
-
+.header-page h1 {
+    color: #000000;
+}
 .logo {
   background: url("https://colorid.github.io/cloudcard-custom-assets/CSUN-logo-white.png") top center no-repeat;
   max-width: 400px !important;
@@ -30,50 +32,50 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#ed1b2f;
+  background-color:#f4f4f4;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#ed1b2f;
-  color: #f2f3f4;
+  border-bottom-color:#d22030;
+  color: #000;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #fff;
+  color: #000000;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #5d6770 ;
+    border-bottom-color: #000 ;
 }
 
 .header-page .buttons button {
-  background-color: #c6cacd;
-  color: #ed1b2f;
+  background-color: #d22030;
+  color: #fff;
 }
 
 .header-page button {
-  background-color: #ed1b2f;
+  background-color: #d22030;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #5d6770;
+  background-color: #d22030;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #ed1b2f;
+  background-color: #d22030;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #5d6770;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -83,19 +85,19 @@ header.header-page {
 }
 
 button {
-    background-color: #ed1b2f;
+    background-color: #d22030;
 }
 
 button:hover,
 button:focus {
-    background-color: #5d6770;
+    background-color: #000000;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ed1b2f;
+    background-color: #d22030;
 }
 
 router-view .buttons button.primary:hover,
@@ -105,20 +107,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #5d6770;
+    background-color: #000000;
 }
 
 .user-info {
-    color: #ed1b2f;
+    color: #d22030;
 }
 
 .user-info a {
-    color: #424242;
+    color: #000000;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #ed1b2f;
+    color: #d22030;
 }
 
 .open-nav {
@@ -128,11 +130,11 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #ed1b2f;
+    color: #d22030;
 }
 
 .admin-links .fa {
-    color: #ed1b2f; /*default #007bff*/
+    color: #d22030; /*default #007bff*/
 }
 
 table th,
@@ -141,7 +143,7 @@ table td {
 }
 
 .footer {
-    background: #ed1b2f;
+    background: #d22030;
 }
 
 .admin-links a {
@@ -159,8 +161,8 @@ table td {
 .sidebar-main,
 .sidebar-mobile {
     background: #f4f4f4;
-    color: #ed1b2f;
-    border-right: 3px solid #5d6770;
+    color: #d22030;
+    border-right: 3px solid #000000;
     height: 100% !important;
 }
     .nav-open {
@@ -170,7 +172,7 @@ table td {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #ed1b2f !important;
+    color: #d22030 !important;
 }
 
 ul.photo-requirements {
@@ -184,7 +186,7 @@ ul.photo-requirements {
 
 
 .current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #5d6770 !important;
+    background-color: #000000 !important;
     color: #fff;
 
 }
@@ -203,13 +205,13 @@ ul.photo-requirements {
     color: #111;
 }
 router-view .buttons button {
-    background-color: #ed1b2f;
+    background-color: #d22030;
     color: #fff;
 }
 router-view .buttons button:hover {
     background-color: #fff;
-    color: #ed1b2f;
-    border: 2px solid #ed1b2f;
+    color: #d22030;
+    border: 2px solid #d22030;
 }
 photo-list-section-header.good-photos {
     background: #6cc24a;
