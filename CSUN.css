@@ -49,6 +49,7 @@ header.header-page {
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
     border-bottom-color: #000 ;
+    color: #55565a;
 }
 
 .header-page .buttons button {
@@ -111,11 +112,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #d22030;
+    color: #fff;
 }
 
 .user-info a {
-    color: #000000;
+    color: #fff;
 }
 
 .user-info a:hover,
