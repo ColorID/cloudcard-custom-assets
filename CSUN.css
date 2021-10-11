@@ -148,26 +148,27 @@ table td {
 }
 
 .admin-links a {
-    background: #f4f4f4;
-    color: #353535;
+    background: #fff;
+    color: #55565a;
 	font-weight: bold;
 	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #cccccc;
+    background: #fff;
+    color: #a9aba9
 }
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f4f4f4;
+    background: #fff;
     color: #d22030;
     border-right: 3px solid #000000;
     height: 100% !important;
 }
     .nav-open {
-		background: #f4f4f4;}
+		background: #ffffff;}
 	
 
 
@@ -231,6 +232,11 @@ router-view .buttons button.primary, #accept-terms, button.submit-login {
 
 .header-page .search .fa-search {
 	color: #44C8F5;
+}
+
+.header-page .filters select {
+    background: #000;
+    border: 1px solid #fff;
 }
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
