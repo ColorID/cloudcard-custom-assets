@@ -16,9 +16,9 @@ html {
 }
 
 header.header-main {
-  background-color: #00818a;
+  background-color: #ffffff;
   height:10.5em;
-  border-bottom: 0px solid #ffffff;
+  border-bottom: 3px solid #00818a;
 }
 
 .header-page h1 {
@@ -122,11 +122,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #ffffff;
+    color: #000000;
 }
 
 .user-info a {
-    color: #b7b7b7;
+    color: #000000;
 }
 
 .user-info a:hover,
