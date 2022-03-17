@@ -151,8 +151,8 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #8996a0;
-    color: #ffffff;
+    background: #e8e8e8;
+    color: #005030;
 }
 
 .footer {
@@ -168,7 +168,7 @@ table td {
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #cccccc;
+    background: #ffffff;
 }
 
 .sidebar-main,
