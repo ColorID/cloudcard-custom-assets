@@ -44,13 +44,13 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #6d6d6d;
+  color: #f47321;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
 	color: #f47321;
-	border-bottom-color: #637076;
+	border-bottom-color: #f47321;
 }
 
 .header-page .buttons button {
