@@ -49,8 +49,8 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-	color: #000;
-	border-bottom-color: #8996a0;
+	color: #f47321;
+	border-bottom-color: #637076;
 }
 
 .header-page .buttons button {
@@ -169,6 +169,7 @@ table td {
 .admin-links a:hover,
 .admin-links a:focus {
     background: #ffffff;
+	color: #f47321;
 }
 
 .sidebar-main,
