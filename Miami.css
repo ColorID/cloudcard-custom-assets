@@ -17,9 +17,9 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
+  background-color: #005030;
   height:10.5em;
-  border-bottom: 3px solid #00818a;
+  border-bottom: 3px solid #005030;
 }
 
 .header-page h1 {
@@ -37,8 +37,8 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color: #00818a;
-  color: #00818a;
+  border-bottom-color: #005030;
+  color: #005030;
 }
 
 .header-page .tabs li a:hover,
@@ -54,19 +54,19 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #00818a;
+  background-color: #005030;
   color: #ffffff;
 }
 
 .header-page button {
-  background-color: #00818a;
-  color: #00818a;
+  background-color: #005030;
+  color: #005030;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #00818a;
+  background-color: #005030;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
@@ -77,7 +77,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #00818a;
+    background-color: #005030;
     color: #fff;
 }
 
@@ -97,19 +97,19 @@ header.header-page {
 }
 
 button {
-    background-color: #00818a;
+    background-color: #005030;
 }
 
 button:hover,
 button:focus {
-    background-color: #00818a;
+    background-color: #005030;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #00818a;
+    background-color: #005030;
 }
 
 router-view .buttons button.primary:hover,
@@ -119,15 +119,15 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #00818a;
+    background-color: #005030;
 }
 
 .user-info {
-    color: #000000;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #000000;
+    color: #ffffff;
 }
 
 .user-info a:hover,
@@ -151,16 +151,17 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #B7B7B7;
+    background: #8996a0;
+    color: #ffffff;
 }
 
 .footer {
-    background: #00818a;
+    background: #005030;
 }
 
 .admin-links a {
     background: #ffffff;
-    color: #00818a;
+    color: #005030;
 	font-weight: bold;
 	
 }
@@ -174,7 +175,7 @@ table td {
 .sidebar-mobile {
     background: #ffffff;
     color: #6d6d6d;
-    border-right: 3px solid #00818a;
+    border-right: 3px solid #005030;
     height: 100% !important;
 }
     .nav-open {
