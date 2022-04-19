@@ -49,8 +49,8 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-	color: #abb8c3;
-	border-bottom-color: #637076;
+	color: #7ba4d9;
+	border-bottom-color: #cecfcb;
 }
 
 .header-page .buttons button {
@@ -88,7 +88,7 @@ header.header-page {
 
 .header-page .filters select {
    
-    background: #000;
+    background: #0a214f;
     border: 1px solid #fff;
     border-radius: .3125em;
     box-shadow: none;
@@ -169,7 +169,7 @@ table td {
 .admin-links a:hover,
 .admin-links a:focus {
     background: #ffffff;
-	color: #abb8c3;
+	color: #7ba4d9;
 }
 
 .sidebar-main,
