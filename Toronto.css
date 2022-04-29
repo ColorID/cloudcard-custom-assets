@@ -248,6 +248,17 @@ router-view .buttons button.primary, #accept-terms, button.submit-login {
 img.photos--preview {
     border-bottom: 0px;
 }
+/* Hide Change Language Link */
+
+#locale-link {
+display: none;
+}
+
+.footer-main .hide-on-mobile-small {
+position: absolute;
+right: 1.25em;
+}
+
 */
 
 /* Uncomment this block to hide the Download photos button.
