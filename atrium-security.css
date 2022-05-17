@@ -5,6 +5,7 @@
 https://colorid.github.io/cloudcard-custom-assets/atrium-security.css     
 */
 
+
 html {
   background: #ffffff ;
 }
@@ -125,11 +126,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #000000;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #000000;
+    color: #ffffff;
 }
 
 .user-info a:hover,
