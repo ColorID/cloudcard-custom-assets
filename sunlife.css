@@ -16,9 +16,9 @@ html {
 }
 
 header.header-main {
-  background-color: #00818a;
+  background-color: #fff;
   height:10.5em;
-  border-bottom: 0px solid #ffffff;
+  border-bottom: 3px solid #004c6c;
 }
 
 .header-page h1 {
@@ -26,7 +26,7 @@ header.header-main {
 }
 
 .logo {
-  background: url("https://colorid.github.io/sunlifeminilogo.png") top center no-repeat;
+  background: url("https://colorid.github.io/cloudcard-custom-assets/sunlifeminilogo.png") top center no-repeat;
   max-width: 400px !important;
   background-size: contain;
 }
@@ -36,47 +36,47 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color: #00818a;
-  color: #00818a;
+  border-bottom-color: #004c6c;
+  color: #004c6c;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #6d6d6d;
+  color: #424242;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
 	color: #000;
-    border-bottom-color: #b7b7b7 ;
+    border-bottom-color: #424242 ;
 }
 
 .header-page .buttons button {
-  background-color: #00818a;
+  background-color: #004c6c;
   color: #ffffff;
 }
 
 .header-page button {
-  background-color: #00818a;
-  color: #00818a;
+  background-color: #004c6c;
+  color: #004c6c;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #00818a;
+  background-color: #004c6c;
   color: #fff;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #6d6d6d;
+  background-color: #424242;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #00818a;
+    background-color: #004c6c;
     color: #fff;
 }
 
@@ -87,7 +87,7 @@ header.header-page {
 
 .header-page .filters select {
    
-    background: #000;
+    background: #004c6c;
     border: 1px solid #fff;
     border-radius: .3125em;
     box-shadow: none;
@@ -96,19 +96,19 @@ header.header-page {
 }
 
 button {
-    background-color: #00818a;
+    background-color: #004c6c;
 }
 
 button:hover,
 button:focus {
-    background-color: #00818a;
+    background-color: #004c6c;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #00818a;
+    background-color: #004c6c;
 }
 
 router-view .buttons button.primary:hover,
@@ -118,20 +118,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #00818a;
+    background-color: #004c6c;
 }
 
 .user-info {
-    color: #ffffff;
+    color: #004c6c;
 }
 
 .user-info a {
-    color: #b7b7b7;
+    color: #424242;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #6d6d6d;
+    color: #424242;
 }
 
 .open-nav {
@@ -141,25 +141,25 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #6d6d6d;
+    color: #424242;
 }
 
 .admin-links .fa {
-    color: #6d6d6d; /*default #007bff*/
+    color: #424242; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #B7B7B7;
+    background: #ffcb05;
 }
 
 .footer {
-    background: #00818a;
+    background: #004c6c;
 }
 
 .admin-links a {
     background: #ffffff;
-    color: #00818a;
+    color: #004c6c;
 	font-weight: bold;
 	
 }
@@ -172,8 +172,8 @@ table td {
 .sidebar-main,
 .sidebar-mobile {
     background: #ffffff;
-    color: #6d6d6d;
-    border-right: 3px solid #00818a;
+    color: #424242;
+    border-right: 3px solid #004c6c;
     height: 100% !important;
 }
     .nav-open {
@@ -183,7 +183,7 @@ table td {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #6d6d6d !important;
+    color: #424242 !important;
 }
 
 ul.photo-requirements {
@@ -215,12 +215,12 @@ ul.photo-requirements {
     color: #111;
 }
 router-view .buttons button {
-    background-color: #6d6d6d;
+    background-color: #424242;
     color: #fff;
 }
 router-view .buttons button:hover {
     background-color: #fff;
-    color: #6d6d6d;
+    color: #424242;
     
 }
 photo-list-section-header.good-photos {
