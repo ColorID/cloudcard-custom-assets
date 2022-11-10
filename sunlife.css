@@ -36,20 +36,19 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color: #004c6c;
-  color: #004c6c;
-}
-
+    border-bottom-color: #f4f4f4;
+    color: #004c6c;
+  }
+  
 .header-page .tabs li a:hover,
-.header-page .tabs li a:focus
-{
-  color: #424242;
+.header-page .tabs li a:focus {
+    color: #424242;
 }
-
-/* Keep this block only if it looks good. */
+  
+  /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-	color: #000;
-    border-bottom-color: #424242 ;
+    color: #000;
+    border-bottom-color: #014d6c ;
 }
 
 .header-page .buttons button {
