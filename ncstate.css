@@ -1,0 +1,252 @@
+/*
+https://colorid.github.io/cloudcard-custom-assets/nc-state-.css     
+*/
+
+html {
+  background: #f4f4f4 ;
+}
+
+.splash {
+  background-color: #f4f4f4 ;
+}
+
+.splash .loading path {
+  fill: #fff;
+
+}
+
+header.header-main {
+  background-color: #cc0000;
+  height:10.5em;
+	border-bottom: 2px solid #55565a;
+
+}
+
+.header-page h1 {
+    color: #000000;
+}
+.logo {
+  background: url("https://colorid.github.io/cloudcard-custom-assets/nc-state-logo.jpeg") top center no-repeat;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#f4f4f4;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#cc0000;
+  color: #000;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #000000;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #000 ;
+    color: #55565a;
+}
+
+.header-page .buttons button {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #cc0000;
+  color: #fff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #cc0000;
+  color: #fff;
+   */
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #000000;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #cc0000;
+}
+
+button:hover,
+button:focus {
+    background-color: #000000;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #cc0000;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #000000;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #fff;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #bec6c3;
+}
+
+.open-nav {
+    color: #6cc24a;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #cc0000;
+}
+
+.admin-links .fa {
+    color: #cc0000; /*default #007bff*/
+}
+
+table th,
+table td {
+    background: #c6cacd;
+}
+
+.footer {
+    background: #cc0000;
+}
+
+.admin-links a {
+    background: #fff;
+    color: #55565a;
+	font-weight: bold;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #fff;
+    color: #a9aba9
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #fff;
+    color: #cc0000;
+    border-right: 2.5px solid #55565a;
+    height: 100% !important;
+}
+    .nav-open {
+		background: #ffffff;}
+	
+
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #cc0000 !important;
+}
+
+ul.photo-requirements {
+	
+	background-color:#fff;
+}
+
+.photo-requirements li i {
+    color: #55565a;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #13c545 !important;
+    color: #fff;
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #ffb500 !important;
+    color: #111111;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #ffb500;
+    color: #111;
+}
+router-view .buttons button {
+    background-color: #cc0000;
+    color: #fff;
+}
+router-view .buttons button:hover {
+    background-color: #fff;
+    color: #cc0000;
+    border: 2px solid #cc0000;
+}
+photo-list-section-header.good-photos {
+    background: #6cc24a;
+  
+}
+photo-list-section-header div a {
+    color: #3d3d3d;
+  
+}
+
+
+router-view .buttons button.primary, #accept-terms, button.submit-login {
+    background-color: #333333; 
+	color: #fff;
+}
+
+.header-page .search .fa-search {
+	color: #44C8F5;
+}
+
+.header-page .filters select {
+    background: #000;
+    border: 1px solid #fff;
+}
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
