@@ -266,6 +266,7 @@ button.download_button {
 }
 */
 
+/* Uncomment to Remove the Approve All Green Photos button/bar
 photo-list-section-header {
 border: 1.5px solid #0a214f;
 }
@@ -273,7 +274,10 @@ border: 1.5px solid #0a214f;
 photo-list-section-header div {
 display: none;
 }
+*/
 
+/* Uncomment to remove the color  bar under images
 img.photos--preview {
 border: none
 }
+*/
