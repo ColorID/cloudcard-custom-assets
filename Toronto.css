@@ -271,7 +271,7 @@ photo-list-section-header {
 border: 1.5px solid #0a214f;
 }
 
-photo-list-section-header div {
+photo-list-section-header  {
 display: none;
 }
 
