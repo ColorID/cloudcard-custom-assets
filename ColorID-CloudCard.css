@@ -265,3 +265,12 @@ button.download_button {
 	display: none;
 }
 */
+
+photo-list-section-header {
+border: 1.5px solid #0a214f;
+}
+
+photo-list-section-header div {
+display: none;
+}
+
