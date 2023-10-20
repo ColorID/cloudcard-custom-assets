@@ -274,3 +274,6 @@ photo-list-section-header  {
 display: none;
 }
 
+img.photos--preview {
+border: none
+}
