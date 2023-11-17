@@ -256,3 +256,7 @@ button.download_button {
 	display: none;
 }
 */
+
+footer > span:nth-child(2) > span {
+display: none;
+}
