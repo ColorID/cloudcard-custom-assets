@@ -6,11 +6,11 @@ https://colorid.github.io/cloudcard-custom-assets/unc_one_card_office/unc_one_ca
 
 
 html {
-  background: #FFD100;
+  background: #e5b611;
 }
 
 .splash {
-  background-color: #FFD100;
+  background-color: #e5b611;
 }
 
 .splash .loading path {
@@ -21,7 +21,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #FFD100;
+  border-bottom: 1px solid #e5b611;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header.header-page {
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#FFD100;
+  border-bottom-color:#e5b611;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -49,26 +49,26 @@ header.header-page {
 }
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 13294B */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
 .header-page .tabs a.active {
-    border-bottom-color: #13294B;
+    border-bottom-color: #245eb5;
 }
 
-/*13294B MAIN BUTTONS and button links*/
+/*245eb5 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #13294B; 
+  background-color: #245eb5; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #FFD100; /*4B9CD3 I DONT KNOW???*/
+  background-color: #e5b611; /*4B9CD3 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #13294B;
+    background-color: #245eb5;
     color: #fff; 
 }
 
@@ -87,7 +87,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #13294B; /* 13294B I DO NOT KNOW */
+    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
 }
 
 /* user account and org logged in */
@@ -98,7 +98,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #13294B; 
+    color: #245eb5; 
 }
 
 .open-nav {
@@ -113,20 +113,20 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #FFD100; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #13294B;
+  background: #6b94b5;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #13294B;
+  background-color: #6b94b5;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #F4E8DD;
+  background-color: #4B9CD3;
 }
 
 
@@ -145,5 +145,6 @@ button.download_button {
 	display: none;
 }
  */
+
 
 
