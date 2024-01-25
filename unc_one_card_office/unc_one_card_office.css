@@ -6,11 +6,11 @@ https://colorid.github.io/cloudcard-custom-assets/unc_one_card_office/unc_one_ca
 
 
 html {
-  background: #e5b611;
+  background: #FFD100;
 }
 
 .splash {
-  background-color: #e5b611;
+  background-color: #FFD100;
 }
 
 .splash .loading path {
@@ -21,7 +21,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #e5b611;
+  border-bottom: 1px solid #FFD100;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header.header-page {
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#e5b611;
+  border-bottom-color:#FFD100;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -61,7 +61,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #e5b611; /*005296 I DONT KNOW???*/
+  background-color: #FFD100; /*4B9CD3 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -80,7 +80,7 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #005296; 
+    background-color: #4B9CD3; 
 } 
 
 router-view .buttons button.primary,
@@ -113,7 +113,7 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #FFD100; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
@@ -126,12 +126,12 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #005296;
+  background-color: #4B9CD3;
 }
 
 
 .footer {
-    background: #005296; /*footer*/
+    background: #4B9CD3; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
