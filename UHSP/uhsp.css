@@ -1,9 +1,9 @@
 html {
-  background: #e5b611;
+  background: #8E9089;
 }
 
 .splash {
-  background-color: #e5b611;
+  background-color: #8E9089;
 }
 
 .splash .loading path {
@@ -14,7 +14,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #e5b611;
+  border-bottom: 1px solid #8E9089;
 }
 
 .logo {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#005296;
+  background-color:#582C83;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#e5b611;
+  border-bottom-color:#8E9089;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -42,19 +42,19 @@ header.header-page {
 }
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute A05EB5*/
 .header-page .tabs a.active {
     border-bottom-color: #245eb5;
 }
 
-/*245eb5 MAIN BUTTONS and button links*/
+/*A05EB5MAIN BUTTONS and button links*/
 .header-page .buttons button {
   background-color: #245eb5; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #e5b611; /*005296 I DONT KNOW???*/
+  background-color: #8E9089; /*582C83 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -73,14 +73,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #005296; 
+    background-color: #582C83; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
+    background-color: #245eb5; /* A05EB5I DO NOT KNOW */
 }
 
 /* user account and org logged in */
@@ -106,25 +106,25 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #8E9089; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #6b94b5;
+  background: #000000;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #6b94b5;
+  background-color: #000000;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #005296;
+  background-color: #582C83;
 }
 
 
 .footer {
-    background: #005296; /*footer*/
+    background: #582C83; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
