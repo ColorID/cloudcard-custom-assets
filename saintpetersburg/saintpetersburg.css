@@ -18,7 +18,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://github.com/ColorID/cloudcard-custom-assets/blob/gh-pages/saintpetersburg/saintpetersburg.css') top center no-repeat;
+  background: url('https://colorid.github.io/cloudcard-custom-assets/spclogo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
