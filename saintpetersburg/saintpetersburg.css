@@ -110,12 +110,12 @@ ul.photo-requirements i{
 }
 
 .sidebar-main {
-  background: #89bc40;
+  background: #000000;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #89bc40;
+  background-color: #000000;
 /*   color: #292929; */
 }
 .admin-links a:hover {
